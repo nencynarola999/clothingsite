@@ -1,0 +1,2318 @@
+/* // 1 || womenbackground*/
+.Homewomen1h3 {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Homewomen1h3::before {
+    content: "";
+    position: absolute;
+    top: 120%;
+    height: 4px;
+    width: 12%;
+    background-color: var(--data-colorlogo);
+}
+
+.carousel-indicators3 [data-bs-target] {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 10px solid #0000;
+    border-top: 10px solid #0000;
+    box-sizing: initial;
+    cursor: pointer;
+    flex: 0 1 auto;
+    height: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    opacity: 0;
+    padding: 0;
+    text-indent: -999px;
+    transition: opacity .6s ease;
+    width: 30px;
+    position: absolute;
+}
+
+.carousel-control-next1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-control-next1 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+}
+
+.carousel-control-prev1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-control-prev1 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+}
+
+.Homewomen1maindiv {
+    border-radius: 50px;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv {
+    width: 100%;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv img {
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv1 {
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv1 h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv1 h2::before {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 3px;
+    width: 30%;
+    background-color: white;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv1 p {
+    font-weight: 600;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv1 h6 {
+    font-weight: 600;
+    position: relative;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv1 h6::before {
+    content: "";
+    position: absolute;
+    top: 94%;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv2 {
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv2 h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    border-radius: 10px;
+    padding: 0px 30px;
+    letter-spacing: 7px;
+    color: black;
+    background-color: white;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv2 h2::before {
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 3px;
+    width: 40%;
+    background-color: white;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv2 p {
+    font-weight: 600;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv2 h6 {
+    font-weight: 600;
+    position: relative;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv2 h6::before {
+    content: "";
+    position: absolute;
+    top: 94%;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv3 {
+    position: absolute;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv3 h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv3 p {
+    background-color: white;
+    padding: 0px 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv3 h6 {
+    font-weight: 600;
+    position: relative;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv3 h6::before {
+    content: "";
+    position: absolute;
+    top: 94%;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv4 {
+    position: absolute;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv4 h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv4 p {
+    font-weight: 600;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv4 h6 {
+    font-weight: 600;
+    position: relative;
+}
+
+.Homewomen1maindiv .Homewomen1submaindiv .hwomentextdiv4 h6::before {
+    content: "";
+    position: absolute;
+    top: 94%;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+}
+
+/* // 2  || womenfourimgdiscount*/
+
+.Homewomen2maindiv a h3 {
+    color: var(--black-color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Homewomen2maindiv a p {
+    color: var(--textlight-color);
+}
+
+.Homewomen3maindiv a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Homewomen3maindiv a img {
+    position: relative;
+    filter: grayscale(100%);
+    transition: all 0.1s ease-in-out;
+}
+
+.Homewomen3maindiv a img:hover {
+    filter: grayscale(0);
+}
+
+.Homewomen3maindiv a .homew3textset {
+    background-color: rgba(255, 255, 255, 0.744);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 60%;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.Homewomen3maindiv a:hover .homew3textset {
+    opacity: 0;
+}
+
+/* womenpage  */
+
+.womenpage img {
+    position: relative;
+}
+
+.womenpage .text {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.womenpage .text h2 {
+    color: white;
+}
+
+.womenpage .text h6 {
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+}
+
+.carousel-indicatorswomenpage [data-bs-target] {
+    background-clip: padding-box;
+    background-color: #ffffffa7;
+    border: 0;
+    border-bottom: 10px solid #0000;
+    border-top: 10px solid #0000;
+    box-sizing: initial;
+    cursor: pointer;
+    flex: 0 1 auto;
+    height: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+    opacity: 1;
+    padding: 0;
+    text-indent: -999px;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicatorswomenpage [data-bs-target]:first-child {
+    background-image: url("./../public/Women/womenpage/bg1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-indicatorswomenpage [data-bs-target]:nth-child(2) {
+    background-image: url("./../public/Women/womenpage/bg2.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-indicatorswomenpage [data-bs-target]:nth-child(3) {
+    background-image: url("./../public/Women/womenpage/bg3.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.womenpagemaindiv {
+    overflow-y: scroll;
+    height: 800px !important;
+    margin: 0 auto;
+}
+
+/* width */
+.womenpagemaindiv::-webkit-scrollbar {
+    width: 10px;
+    height: 6px !important;
+}
+
+.womenpagemaindiv::-webkit-scrollbar {
+    height: 50px;
+}
+
+/* Track */
+.womenpagemaindiv::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    height: 6px !important;
+}
+
+/* Handle */
+.womenpagemaindiv::-webkit-scrollbar-thumb {
+    background: rgba(var(--rgbdata-colorlogo), 0.744);
+    height: 6px !important;
+}
+
+/* Handle on hover */
+.womenpagemaindiv::-webkit-scrollbar-thumb:hover {
+    background: var(--data-colorlogo);
+}
+
+.womenpagesubdiv1 .womenpagesideheadingset h4 {
+    border-left: 5px solid var(--data-colorlogo);
+    padding: 10px;
+    color: var(--textdark-color);
+    font-size: 18px;
+}
+
+.womenpagesubdiv1 .womenpagesideheadingset h6 {
+    color: var(--textlight-color);
+}
+
+.womenpagesubdiv2 .imagedivborder {
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.womenpagesubdiv2 .imagedivborder button {
+    position: absolute;
+    bottom: -8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+    border: none;
+}
+
+.womenpagesubdiv2 .imagedivborder .imagetext h4 {
+    text-align: center;
+    color: var(--textdark-color);
+}
+
+.womenpagesubdiv2 .imagedivborder .imagetext h5 {
+    color: var(--textlight-color);
+    font-weight: 800;
+}
+
+.womenpagesubdiv2 .imagedivborder .imagetext .h5 {
+    color: red;
+    position: relative;
+}
+
+.womenpagesubdiv2 .imagedivborder .imagetext .h5::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    background-color: red;
+    height: 1px;
+    width: 160%;
+    transform: rotate(150deg);
+}
+
+.womenpagelogosec {
+    background-color: var(--black-color);
+    display: flex;
+    align-items: center;
+}
+
+.womenpagelogosec {
+    background-color: var(--black-color);
+    display: flex;
+    align-items: center;
+}
+
+.womenpageroundsec .womenpageroundsech3 {
+    color: var(--textdark-color);
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+}
+
+.womenpageroundsec .womenpageroundsech3::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    height: 3px;
+    width: 10%;
+    background-color: var(--data-colorlogo);
+    transform: translate(-50%, -50%);
+}
+
+.womenpageroundsec .womenpageroundmaindiv {
+    border-radius: 50%;
+}
+
+.womenpageroundsec .womenpageroundmaindiv img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.womensiximage {
+    position: relative;
+}
+
+.womensiximage .womensiximageh1 {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.womensiximage .womensiximageh1 h4 {
+    letter-spacing: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.womensiximage .womensiximageh1 button {
+    color: var(--white-color);
+    background-color: var(--black-color);
+    border: none;
+}
+
+.womensiximage .womensiximageh1 h6 {
+    color: var(--black-color);
+}
+
+.womensiximage .womensiximageh1 h2 {
+    color: var(--black-color);
+}
+
+.womensiximage .womensiximageh1 h3 {
+    color: var(--black-color);
+}
+
+.womensiximage .womensiximageh1 h5 {
+    color: var(--white-color);
+}
+
+.womensiximage .womensiximageh1 p {
+    color: var(--white-color);
+    letter-spacing: 2px;
+}
+
+/* womenslug */
+.womenslug .womenslugfirstsec div h1 {
+    color: var(--textdark-color);
+}
+
+.womenslug .womenslugfirstsec div p {
+    color: var(--textlight-color);
+}
+
+.forminput:focus {
+    border-color: var(--data-colorlogo);
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(var(--rgbdata-colorlogo), 0.25);
+}
+
+.forminput:checked {
+    background-color: var(--data-colorlogo);
+    border-color: var(--data-colorlogo);
+}
+
+.womenbeautyimg {
+    position: relative;
+}
+
+.womenbeautyimg div .womenbeautybg {
+    position: absolute;
+}
+
+.womenbeautyimg div .womenbeautybg .womenbeautybgh2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--textdark-color);
+}
+
+.womenbeautyimg div .womenbeautybg .womenbeautybgp {
+    color: var(--textlight-color);
+}
+
+.womenbeautyimg div .womenbeautybg .womenbeautynatural {
+    color: var(--data-colorlogo);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.womenbeautyimg div .womenbeautybg .womenbeautybutton {
+    border: 2px solid var(--data-colorlogo);
+    color: var(--black-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.womenbeautyimg div .womenbeautybg .womenbeautybutton:hover {
+    border: 2px solid var(--data-colorlogo);
+    background-color: var(--data-colorlogo);
+}
+
+.womenbeautyFproduct .womenbeautyFproducth2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--textdark-color);
+}
+
+.womenbeautyimghov {
+    position: relative;
+}
+
+.womenbeautyimghov .womenbeautyimghovp {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding: 7px 10px;
+}
+
+.womenbeautyimghov .womenbeautyimghovfirst {
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.womenbeautyimghov .womenbeautyimghovsecond {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+
+.womenbeautyimghov:hover .womenbeautyimghovfirst {
+    opacity: 0;
+}
+
+.womenbeautyimghov:hover .womenbeautyimghovsecond {
+    opacity: 1;
+}
+
+.womenbeautyfourimagesec {
+    position: relative;
+}
+
+.womenbeautyfourimagesec .womenbeautyfourimage2 {
+    position: absolute;
+}
+
+.womenbeautyfourimagesec .womenbeautyfourimage3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.womenbeautyfourimageptext {
+    color: var(--textdark-color);
+    font-size: 18px;
+}
+
+.womenbeautyfourimagebutton {
+    border: 2px solid var(--data-colorlogo);
+    color: var(--black-color);
+    transition: all 0.5s ease-in-out;
+}
+
+.womenbeautyfourimagebutton:hover {
+    border: 2px solid var(--data-colorlogo);
+    background-color: var(--data-colorlogo);
+}
+
+.womenbeautypinksec {
+    text-align: center;
+}
+
+.womenbeautypinksec .womenbeautypinkh2text {
+    color: var(--data-colorlogo);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.womenbeautypinksec .womenbeautypinkptext {
+    color: var(--textdark-color);
+}
+
+.womenbeautypinksec .womenbeautypinkptext .womenbeautypinkimg {
+    width: 40px;
+    transform: rotate(40deg);
+}
+
+.bgwhitefootwear {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.iconfootwear {
+    color: var(--data-colorlogo);
+    font-size: 14px;
+}
+
+.footwearslidermain .footwearslidermainh2 {
+    color: var(--textdark-color);
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.footwearslidermain .footwearslidermainh2::after {
+    content: "";
+    background-color: var(--data-colorlogo);
+    height: 3px;
+    width: 10%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 115%;
+    left: 50%;
+}
+
+.footwearslidermain .footwearcontentdiv {
+    position: relative;
+}
+
+.footwearslidermain .footwearcontentdiv .footwearposiset {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footwearslidermain .footwearcontentdiv .footwearposiset .footwearposiset11 {
+    position: relative;
+}
+
+.footwearslidermain .footwearcontentdiv .footwearposiset .footwearposiset11::after {
+    content: "";
+    height: 0.5px;
+    width: 110%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 105%;
+    left: 50%;
+    background-color: var(--black-color);
+}
+
+.footwearslidermain .footwearslidermainnews {
+    font-size: 17px;
+    color: var(--textlight-color);
+    font-weight: 500;
+}
+
+.footwearslidermain .footwearslidermainheadtext {
+    font-size: 29px;
+    color: var(--textdark-color);
+    font-weight: 600;
+    position: relative;
+}
+
+.footwearslidermain .footwearslidermainheadtext::after {
+    content: "";
+    background-color: var(--data-colorlogo);
+    height: 2px;
+    width: 25%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 115%;
+    left: 50%;
+}
+
+.footwearslidermain .footwearslidermainptext {
+    color: var(--textlight-color);
+    font-weight: 500;
+}
+
+/* slider */
+/* .footwearslidermain {
+    position: relative;
+
+}
+
+.footwearslider {
+    border: 1px solid red;
+
+}
+
+.footwearslider li {
+    list-style: none;
+    display: none;
+}
+
+.slick-prev {
+    font-size: 0px;
+    position: absolute;
+    top: 50%;
+    display: block;
+    cursor: pointer;
+    left: 13%;
+    background-color: transparent;
+    color:red;
+
+}
+.slick-prev:before {
+    content: "\2039";
+}
+.slick-prev:before {
+    font-family: slick;
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    padding: 0px 10px;
+    color: #fff;
+    background-color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+
+
+.watchesdiv {
+    position: relative;
+}
+
+.watchestextdiv {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+}
+
+.womenfeaturedproducts {
+    text-align: center;
+}
+
+.womenfeaturedproducts p {
+    color: var(--textlight-color);
+    position: relative;
+}
+
+.womenfeaturedproducts p::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    width: 3%;
+    height: 2px;
+    background-color: var(--black-color);
+    transform: translate(-50%, -50%);
+}
+
+.womenfeaturedproducts h2 {
+    color: var(--textdark-color);
+}
+
+.womenfeaturedproducts h2 span {
+    color: var(--data-colorlogo);
+}
+
+.womenwatchesimghover {
+    position: relative;
+}
+
+.womenwatchesimghover2 {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.womenwatchesimghover:hover .womenwatchesimghover2 {
+    opacity: 1;
+}
+
+.watchbrandimg {
+    position: relative;
+}
+
+.watchbrandimg1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 213.98px; */
+}
+
+.watchbrandimghover {
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+.watchbrandimg:hover .watchbrandimghover {
+    opacity: 1;
+}
+
+/* // -------------------------------------------------------------------- RESPONSIVE */
+
+@media only screen and (max-width: 345.98px) {
+    .hwomentextdiv1 {
+        top: 20%;
+        right: 10%;
+    }
+
+    .hwomentextdiv1 h2 {
+        font-size: 25px !important;
+    }
+
+    .hwomentextdiv1 p {
+        font-size: 20px !important;
+    }
+
+    .hwomentextdiv1 h6 {
+        font-size: 15px !important;
+    }
+
+    .hwomentextdiv2 {
+        top: 37%;
+        left: 5%;
+    }
+
+    .hwomentextdiv2 h2 {
+        font-size: 25px !important;
+    }
+
+    .hwomentextdiv2 p {
+        font-size: 25px !important;
+    }
+
+    .hwomentextdiv2 h6 {
+        font-size: 15px !important;
+    }
+
+    .hwomentextdiv3 {
+        top: 25%;
+        left: 1%;
+    }
+
+    .hwomentextdiv3 h2 {
+        font-size: 30px !important;
+    }
+
+    .hwomentextdiv3 p {
+        font-size: 18px !important;
+    }
+
+    .hwomentextdiv3 h6 {
+        font-size: 15px !important;
+    }
+
+    .hwomentextdiv4 {
+        top: 25%;
+        right: 1%;
+    }
+
+    .hwomentextdiv4 h2 {
+        font-size: 30px !important;
+    }
+
+    .hwomentextdiv4 p {
+        font-size: 18px !important;
+    }
+
+    .hwomentextdiv4 h6 {
+        font-size: 15px !important;
+    }
+
+    .Homewomen2maindiv a div {
+        height: 78% !important;
+    }
+
+    .Homewomen2maindiv a h3 {
+        font-size: 9px !important;
+    }
+
+    .Homewomen2maindiv a p {
+        font-size: 7px !important;
+    }
+
+    .homew3textset {
+        height: 30px !important;
+        width: 80px !important;
+    }
+
+    .homew3textset p {
+        font-size: 9px !important;
+    }
+
+    .womenbeautyimg .womenbeautyimg2 {
+        width: 50% !important;
+    }
+
+    .womenbeautyimg div .womenbeautybg {
+        top: 0% !important;
+        right: 0 !important;
+        left: 5% !important;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgh2 {
+        font-size: 25px !important;
+        width: 80% !important;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgp {
+        width: 75% !important;
+        font-size: 14px !important;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautynatural {
+        font-size: 17px !important;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybutton {
+        padding: 5px 15px !important;
+        font-size: 14px !important;
+    }
+
+    .womenbeautyFproduct .womenbeautyFproducth2 {
+        font-size: 35px !important;
+        margin-top: 120px !important;
+    }
+
+    .womenbeautyfourimagebutton {
+        padding: 5px 15px !important;
+        font-size: 14px !important;
+    }
+
+    .womenbeautypinksec .womenbeautypinkh2text {
+        font-size: 26px !important;
+    }
+
+    .womenbeautypinksec .womenbeautypinkptext {
+        font-size: 17px !important;
+    }
+
+    .watchestextdiv {
+        width: 80% !important;
+    }
+
+    .watchestextdiv h6 {
+        font-size: 12px !important;
+    }
+
+    .watchestextdiv h2 {
+        font-size: 20px !important;
+    }
+
+    .watchestextdiv p {
+        font-size: 13px !important;
+    }
+    .watchbrandimg1 {
+        height: 73.98px !important;
+    }
+}
+
+@media only screen and ((min-width: 350px) and (max-width: 380px)) {
+    .womenbeautyimg .womenbeautyimg2 {
+        width: 50% !important;
+    }
+
+    .womenbeautyimg div .womenbeautybg {
+        top: 0% !important;
+        right: 0 !important;
+        left: 5% !important;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgh2 {
+        font-size: 25px !important;
+        width: 80% !important;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgp {
+        width: 65% !important;
+        font-size: 14px !important;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautynatural {
+        font-size: 17px !important;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybutton {
+        padding: 5px 15px !important;
+        font-size: 14px !important;
+    }
+
+    .womenbeautyFproduct .womenbeautyFproducth2 {
+        font-size: 35px !important;
+        margin-top: 90px;
+    }
+
+    .womenbeautyfourimagebutton {
+        padding: 5px 15px !important;
+        font-size: 14px !important;
+    }
+
+    .womenbeautypinksec .womenbeautypinkh2text {
+        font-size: 30px !important;
+    }
+
+    .womenbeautypinksec .womenbeautypinkptext {
+        font-size: 20px !important;
+    }
+
+    .watchestextdiv {
+        width: 80% !important;
+    }
+
+    .watchestextdiv h6 {
+        font-size: 14px !important;
+    }
+
+    .watchestextdiv h2 {
+        font-size: 24px !important;
+    }
+
+    .watchestextdiv p {
+        font-size: 15px !important;
+    }
+    .watchbrandimg1 {
+        height:87.75px !important;
+    }
+}
+
+@media only screen and (min-width: 575.98px) {
+
+    /* .carousel-control-next1 {
+    } */
+    .carousel-control-next1 a {
+        font-size: 25px;
+        height: 35px;
+        width: 35px;
+    }
+
+    /* .carousel-control-prev1 {
+       
+    } */
+    .carousel-control-prev1 a {
+        font-size: 25px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .Homewomen1submaindiv {
+        height: 300px;
+
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 {
+        top: 20%;
+        right: 10%;
+
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 h2 {
+        font-size: 35px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 p {
+        font-size: 20px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 h6 {
+        font-size: 15px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 {
+        top: 37%;
+        left: 5%;
+
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 h2 {
+        font-size: 30px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 p {
+        font-size: 30px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 h6 {
+        font-size: 15px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 {
+        top: 25%;
+        left: 3%;
+
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 h2 {
+        font-size: 40px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 p {
+        font-size: 20px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 h6 {
+        font-size: 15px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 {
+        top: 25%;
+        right: 1%;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 h2 {
+        font-size: 40px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 p {
+        font-size: 20px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 h6 {
+        font-size: 15px;
+    }
+
+    /* .Homewomen2maindiv {
+    } */
+    /* .Homewomen2maindiv a {
+    } */
+    .Homewomen2maindiv a div {
+        height: 71%;
+    }
+
+    .Homewomen2maindiv a h3 {
+        font-size: 14px;
+    }
+
+    .Homewomen2maindiv a p {
+        font-size: 10px;
+    }
+
+    .homew3textset {
+        height: 40px;
+        width: 80px;
+
+    }
+
+    .homew3textset p {
+        font-size: 10px;
+    }
+
+    .womenpage .text h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+
+    }
+
+    .womenpage .text h6 {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .carousel-indicatorswomenpage [data-bs-target] {
+        width: 30px;
+        height: 30px;
+    }
+
+    .womenpageroundsec .womenpageroundmaindiv {
+        height: 350px;
+        width: 350px;
+    }
+
+    .womensiximage .womensiximageh1 .womensiximageh1text {
+        font-size: 27px;
+    }
+
+    .womensiximage .womensiximageh1 h4 {
+        font-size: 20px;
+    }
+
+    .womensiximage .womensiximageh1 button {
+        height: 25px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .womensiximage .womensiximageh1 h6 {
+        font-size: 10px;
+
+    }
+
+    .womensiximage .womensiximageh1 h2 {
+        font-size: 17px;
+    }
+
+    .womensiximage .womensiximageh1 h3 {
+        font-size: 17px;
+    }
+
+    .womensiximage .womensiximageh1 h5 {
+        font-size: 17px;
+    }
+
+    .womensiximage .womensiximageh1 p {
+        font-size: 10px;
+    }
+
+    .womenslug .womenslugfirstsec div h1 {
+        font-size: 25px;
+    }
+
+    .womenslug .womenslugfirstsec div p {
+        font-size: 15px;
+    }
+
+    .womenbeautyimg .womenbeautyimg2 {
+        width: 55%;
+    }
+
+    .womenbeautyimg div .womenbeautybg {
+        top: 0%;
+        right: 0;
+        left: 5%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgh2 {
+        font-size: 49px;
+        width: 80%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgp {
+        width: 47%;
+        font-size: 16px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautynatural {
+        font-size: 23px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybutton {
+        padding: 7px 20px;
+        font-size: 16px;
+    }
+
+    .womenbeautyFproduct .womenbeautyFproducth2 {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+
+    .womenbeautyimagesidetext {
+        font-size: 50px;
+        width: 100%;
+    }
+
+    .womenbeautyfourimagebutton {
+        padding: 7px 20px;
+        font-size: 16px;
+    }
+
+    .womenbeautyfourimagesec .womenbeautyfourimage2 {
+        bottom: 12%;
+        left: 10%;
+    }
+
+    .womenbeautypinksec .womenbeautypinkh2text {
+        font-size: 38px;
+    }
+
+    .womenbeautypinksec .womenbeautypinkptext {
+        font-size: 21px;
+    }
+
+    .watchesdiv img {
+        height: 400px;
+    }
+
+    .watchestextdiv {
+        width: 70%;
+    }
+
+    .watchestextdiv h6 {
+        font-size: 17px;
+    }
+
+    .watchestextdiv h2 {
+        font-size: 30px;
+    }
+
+    .watchestextdiv p {
+        font-size: 18px;
+    }
+    .watchbrandimg1 {
+        height:84px;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+
+    .carousel-control-next1 a {
+        font-size: 25px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .carousel-control-prev1 a {
+        font-size: 25px;
+        height: 35px;
+        width: 35px;
+    }
+
+    .Homewomen1submaindiv {
+        height: 300px;
+
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 {
+        top: 20%;
+        right: 10%;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 h2 {
+        font-size: 35px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 p {
+        font-size: 20px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 h6 {
+        font-size: 15px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 {
+        top: 37%;
+        left: 5%;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 h2 {
+        font-size: 30px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 p {
+        font-size: 30px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 h6 {
+        font-size: 15px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 {
+        top: 25%;
+        left: 3%;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 h2 {
+        font-size: 40px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 p {
+        font-size: 20px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 h6 {
+        font-size: 15px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 {
+        top: 25%;
+        right: 1%;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 h2 {
+        font-size: 40px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 p {
+        font-size: 20px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 h6 {
+        font-size: 15px;
+    }
+
+    .Homewomen2maindiv a div {
+        height: 71%;
+    }
+
+    .Homewomen2maindiv a h3 {
+        font-size: 14px;
+    }
+
+    .Homewomen2maindiv a p {
+        font-size: 10px;
+    }
+
+    .homew3textset {
+        height: 40px;
+        width: 80px;
+    }
+
+    .homew3textset p {
+        font-size: 10px;
+    }
+
+    .womenpage .text h2 {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .womenpage .text h6 {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+
+    .carousel-indicatorswomenpage [data-bs-target] {
+        width: 30px;
+        height: 30px;
+    }
+
+    .womenpageroundsec .womenpageroundmaindiv {
+        height: 350px;
+        width: 350px;
+    }
+
+    .womensiximage .womensiximageh1 .womensiximageh1text {
+        font-size: 23px;
+    }
+
+    .womensiximage .womensiximageh1 h4 {
+        font-size: 15px;
+    }
+
+    .womensiximage .womensiximageh1 button {
+        height: 25px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    .womensiximage .womensiximageh1 h6 {
+        font-size: 8px;
+    }
+
+    .womensiximage .womensiximageh1 h2 {
+        font-size: 11px;
+    }
+
+    .womensiximage .womensiximageh1 h3 {
+        font-size: 11px;
+    }
+
+    .womensiximage .womensiximageh1 h5 {
+        font-size: 11px;
+    }
+
+    .womensiximage .womensiximageh1 p {
+        font-size: 8px;
+    }
+
+    .womenslug .womenslugfirstsec div h1 {
+        font-size: 25px;
+    }
+
+    .womenslug .womenslugfirstsec div p {
+        font-size: 15px;
+    }
+
+    .womenbeautyimg .womenbeautyimg2 {
+        width: 55%;
+    }
+
+    .womenbeautyimg div .womenbeautybg {
+        top: 0%;
+        right: 0;
+        left: 5%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgh2 {
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgp {
+        width: 47%;
+        font-size: 14px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautynatural {
+        font-size: 23px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybutton {
+        padding: 7px 20px;
+        font-size: 16px;
+    }
+
+    .womenbeautyFproduct .womenbeautyFproducth2 {
+        font-size: 50px;
+        margin-top: 70px;
+    }
+
+    .womenbeautyimagesidetext {
+        font-size: 45px;
+        width: 100%;
+    }
+
+    .womenbeautyfourimagebutton {
+        padding: 7px 20px;
+        font-size: 16px;
+    }
+
+    .womenbeautyfourimagesec .womenbeautyfourimage2 {
+        bottom: 0%;
+        left: 10%;
+    }
+
+    .womenbeautypinksec .womenbeautypinkh2text {
+        font-size: 30px;
+    }
+
+    .womenbeautypinksec .womenbeautypinkptext {
+        font-size: 19px;
+    }
+
+    .watchesdiv img {
+        height: 300px;
+    }
+
+    .watchestextdiv {
+        width: 75%;
+    }
+
+    .watchestextdiv h6 {
+        font-size: 15px;
+    }
+
+    .watchestextdiv h2 {
+        font-size: 25px;
+    }
+
+    .watchestextdiv p {
+        font-size: 16px;
+    }
+    .watchbrandimg1 {
+        height:100.23px;
+    }
+}
+
+@media only screen and (min-width: 767.98px) {
+
+    .carousel-control-next1 a {
+        font-size: 30px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .carousel-control-prev1 a {
+        font-size: 30px;
+        height: 50px;
+        width: 50px;
+    }
+
+    .Homewomen1submaindiv {
+        height: 500px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 {
+        top: 20%;
+        right: 5%;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 h2 {
+        font-size: 60px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 p {
+        font-size: 40px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 h6 {
+        font-size: 25px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 {
+        top: 30%;
+        left: 5%;
+
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 h2 {
+        font-size: 50px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 p {
+        font-size: 50px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 h6 {
+        font-size: 25px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 {
+        top: 30%;
+        left: 7%;
+
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 h2 {
+        font-size: 55px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 p {
+        font-size: 30px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 h6 {
+        font-size: 25px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 {
+        top: 25%;
+        right: 7%;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 h2 {
+        font-size: 55px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 p {
+        font-size: 30px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 h6 {
+        font-size: 25px;
+    }
+
+    .Homewomen2maindiv a div {
+        height: 80%;
+    }
+
+    .Homewomen2maindiv a h3 {
+        font-size: 22px;
+    }
+
+    .Homewomen2maindiv a p {
+        font-size: 16px;
+    }
+
+    .homew3textset {
+        height: 60px;
+        width: 110px;
+    }
+
+    .homew3textset p {
+        font-size: 15px;
+    }
+
+    .womenpage .text h2 {
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+
+    .womenpage .text h6 {
+        font-size: 15px;
+        padding: 8px 15px;
+    }
+
+    .carousel-indicatorswomenpage [data-bs-target] {
+        width: 50px;
+        height: 50px;
+    }
+
+    .womenpagesubdiv2 .imagedivborder .imagediv {
+        height: 300px;
+    }
+
+    .womenpageroundsec .womenpageroundmaindiv {
+        height: 350px;
+        width: 350px;
+    }
+
+    .womensiximage .womensiximageh1 .womensiximageh1text {
+        font-size: 50px;
+    }
+
+    .womensiximage .womensiximageh1 h4 {
+        font-size: 30px;
+    }
+
+    .womensiximage .womensiximageh1 button {
+        height: 50px;
+        width: 180px;
+        font-size: 18px;
+    }
+
+    .womensiximage .womensiximageh1 h6 {
+        font-size: 16px;
+    }
+
+    .womensiximage .womensiximageh1 h2 {
+        font-size: 25px;
+    }
+
+    .womensiximage .womensiximageh1 h3 {
+        font-size: 25px;
+    }
+
+    .womensiximage .womensiximageh1 h5 {
+        font-size: 25px;
+    }
+
+    .womensiximage .womensiximageh1 p {
+        font-size: 16px;
+    }
+
+    .womenslug .womenslugfirstsec div h1 {
+        font-size: 35px;
+    }
+
+    .womenslug .womenslugfirstsec div p {
+        font-size: 16px;
+    }
+
+    .womenbeautyimg .womenbeautyimg2 {
+        width: 55%;
+    }
+
+    .womenbeautyimg div .womenbeautybg {
+        top: 0%;
+        right: 0;
+        left: 5%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgh2 {
+        font-size: 70px;
+        width: 70%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgp {
+        width: 45%;
+        font-size: 18px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautynatural {
+        font-size: 27px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybutton {
+        padding: 7px 20px;
+        font-size: 18px;
+    }
+
+    .womenbeautyFproduct .womenbeautyFproducth2 {
+        font-size: 60px;
+        margin-top: 70px;
+    }
+
+    .womenbeautyimagesidetext {
+        font-size: 60px;
+        width: 100%;
+    }
+
+    .womenbeautyfourimagebutton {
+        padding: 7px 20px;
+        font-size: 18px;
+    }
+
+    .womenbeautyfourimagesec .womenbeautyfourimage2 {
+        bottom: 12%;
+        left: 10%;
+    }
+
+    .womenbeautypinksec .womenbeautypinkh2text {
+        font-size: 45px;
+    }
+
+    .womenbeautypinksec .womenbeautypinkptext {
+        font-size: 25px;
+    }
+
+    .watchesdiv img {
+        height: 400px;
+    }
+
+    .watchestextdiv {
+        width: 70%;
+    }
+
+    .watchestextdiv h6 {
+        font-size: 16px;
+    }
+
+    .watchestextdiv h2 {
+        font-size: 35px;
+    }
+
+    .watchestextdiv p {
+        font-size: 17px;
+    }
+    .watchbrandimg1 {
+        height: 113.98px;
+    }
+
+}
+
+@media only screen and (max-width: 767.98px) {
+    .womenpageroundsec .womenpageroundmaindiv {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 991.98px) {
+    .Homewomen1submaindiv {
+        height: 500px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 {
+        top: 30%;
+        right: 10%;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 h2 {
+        font-size: 70px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 p {
+        font-size: 50px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv1 h6 {
+        font-size: 25px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 {
+        top: 30%;
+        left: 10%;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 h2 {
+        font-size: 50px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 p {
+        font-size: 50px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv2 h6 {
+        font-size: 25px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 {
+        top: 30%;
+        left: 10%;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 h2 {
+        font-size: 70px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 p {
+        font-size: 30px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv3 h6 {
+        font-size: 25px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 {
+        top: 30%;
+        right: 10%;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 h2 {
+        font-size: 70px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 p {
+        font-size: 50px;
+    }
+
+    .Homewomen1submaindiv .hwomentextdiv4 h6 {
+        font-size: 25px;
+    }
+
+    .Homewomen2maindiv a div {
+        height: 80%;
+    }
+
+    .Homewomen2maindiv a h3 {
+        font-size: 30px;
+    }
+
+    .Homewomen2maindiv a p {
+        font-size: 21px;
+    }
+
+    .homew3textset {
+        height: 100px;
+        width: 200px;
+    }
+
+    .homew3textset p {
+        font-size: 20px;
+    }
+
+    .womenpage .text h2 {
+        font-size: 75px;
+        margin-bottom: 10px;
+    }
+
+    .womenpage .text h6 {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .carousel-indicatorswomenpage [data-bs-target] {
+        width: 50px;
+        height: 50px;
+    }
+
+    .womenpagesubdiv2 .imagedivborder .imagediv {
+        height: 300px;
+    }
+
+    .womenpageroundsec .womenpageroundmaindiv {
+        height: 330px;
+        width: 330px;
+    }
+
+    .womensiximage .womensiximageh1 .womensiximageh1text {
+        font-size: 80px;
+    }
+
+    .womensiximage .womensiximageh1 h4 {
+        font-size: 50px;
+    }
+
+    .womensiximage .womensiximageh1 button {
+        height: 50px;
+        width: 180px;
+    }
+
+    .womensiximage .womensiximageh1 h6 {
+        font-size: 17px;
+    }
+
+    .womensiximage .womensiximageh1 h2 {
+        font-size: 32px;
+    }
+
+    .womensiximage .womensiximageh1 h3 {
+        font-size: 32px;
+    }
+
+    .womensiximage .womensiximageh1 h5 {
+        font-size: 32px;
+    }
+
+    .womensiximage .womensiximageh1 p {
+        font-size: 17px;
+    }
+
+    .womenslug .womenslugfirstsec div h1 {
+        font-size: 45px;
+    }
+
+    .womenslug .womenslugfirstsec div p {
+        font-size: 17px;
+    }
+
+    .womenbeautyimg .womenbeautyimg2 {
+        width: 55%;
+    }
+
+    .womenbeautyimg div .womenbeautybg {
+        top: 10%;
+        right: 0;
+        left: 5%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgh2 {
+        font-size: 100px;
+        width: 70%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgp {
+        width: 40%;
+        font-size: 18px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautynatural {
+        font-size: 30px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybutton {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .womenbeautyFproduct .womenbeautyFproducth2 {
+        font-size: 80px;
+        margin-top: 20px;
+    }
+
+    .womenbeautyimagesidetext {
+        font-size: 80px;
+        width: 100%;
+    }
+
+    .womenbeautyfourimagebutton {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .womenbeautyfourimagesec .womenbeautyfourimage2 {
+        bottom: 7%;
+        left: 10%;
+    }
+
+    .womenbeautypinksec .womenbeautypinkh2text {
+        font-size: 50px;
+    }
+
+    .womenbeautypinksec .womenbeautypinkptext {
+        font-size: 30px;
+    }
+
+    .watchesdiv img {
+        height: 600px;
+    }
+
+    .watchestextdiv {
+        width: 50%;
+    }
+
+    .watchestextdiv h6 {
+        font-size: 17px;
+    }
+
+    .watchestextdiv h2 {
+        font-size: 40px;
+    }
+
+    .watchestextdiv p {
+        font-size: 18px;
+    }
+
+    .watchbrandimg1 {
+        height: 153.98px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .Homewomen1submaindiv {
+        height: 600px;
+    }
+
+    .Homewomen2maindiv a div {
+        height: 85%;
+    }
+
+    .Homewomen2maindiv a h3 {
+        font-size: 30px;
+    }
+
+    .Homewomen2maindiv a p {
+        font-size: 21px;
+    }
+
+    .womenpagesubdiv2 .imagedivborder .imagediv {
+        height: 400px;
+    }
+
+    .womenpageroundsec .womenpageroundmaindiv {
+        height: 400px;
+        width: 400px;
+    }
+
+    .womensiximage .womensiximageh1 .womensiximageh1text {
+        font-size: 100px;
+    }
+
+    .womensiximage .womensiximageh1 h4 {
+        font-size: 50px;
+    }
+
+    .womensiximage .womensiximageh1 button {
+        height: 50px;
+        width: 180px;
+    }
+
+    .womensiximage .womensiximageh1 h6 {
+        font-size: 18px;
+    }
+
+    .womensiximage .womensiximageh1 h2 {
+        font-size: 35px;
+    }
+
+    .womensiximage .womensiximageh1 h3 {
+        font-size: 35px;
+    }
+
+    .womensiximage .womensiximageh1 h5 {
+        font-size: 35px;
+    }
+
+    .womensiximage .womensiximageh1 p {
+        font-size: 18px;
+    }
+
+    .womenslug .womenslugfirstsec div h1 {
+        font-size: 50px;
+    }
+
+    .womenslug .womenslugfirstsec div p {
+        font-size: 18px;
+    }
+
+    .womenbeautyimg div .womenbeautybg {
+        top: 15%;
+        right: 0;
+        left: 5%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgh2 {
+        font-size: 110px;
+        width: 70%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgp {
+        width: 37%;
+        font-size: 19px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautynatural {
+        font-size: 30px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybutton {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .womenbeautyFproduct .womenbeautyFproducth2 {
+        font-size: 100px;
+        margin-top: 0px;
+    }
+
+    .womenbeautyimagesidetext {
+        font-size: 85px;
+        width: 90%;
+    }
+
+    .womenbeautyfourimagebutton {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .womenbeautyfourimagesec .womenbeautyfourimage2 {
+        bottom: 4%;
+        left: 10%;
+    }
+
+    .womenbeautypinksec .womenbeautypinkh2text {
+        font-size: 55px;
+    }
+
+    .womenbeautypinksec .womenbeautypinkptext {
+        font-size: 35px;
+    }
+
+    .watchestextdiv {
+        width: 40%;
+    }
+
+    .watchestextdiv h6 {
+        font-size: 17px;
+    }
+
+    .watchestextdiv h2 {
+        font-size: 40px;
+    }
+
+    .watchestextdiv p {
+        font-size: 18px;
+    }
+    .watchbrandimg1 {
+        height: 183.98px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .womenbeautyimg div .womenbeautybg {
+        top: 20%;
+        right: 0;
+        left: 5%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgh2 {
+        font-size: 130px;
+        width: 70%;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybgp {
+        width: 37%;
+        font-size: 19px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautynatural {
+        font-size: 30px;
+    }
+
+    .womenbeautyimg div .womenbeautybg .womenbeautybutton {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .womenbeautyimagesidetext {
+        font-size: 90px;
+        width: 80%;
+    }
+
+    .womenbeautyfourimagebutton {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+
+    .womenbeautyfourimagesec .womenbeautyfourimage2 {
+        bottom: 0%;
+        left: 10%;
+    }
+
+    .womenbeautypinksec .womenbeautypinkh2text {
+        font-size: 60px;
+    }
+
+    .womenbeautypinksec .womenbeautypinkptext {
+        font-size: 40px;
+    }
+    .watchbrandimg1 {
+        height: 213.98px;
+    }
+}

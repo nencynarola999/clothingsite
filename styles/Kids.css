@@ -1,0 +1,1980 @@
+.carousel-indicators4 [data-bs-target] {
+    background-clip: padding-box;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 10px solid #0000;
+    border-top: 10px solid #0000;
+    box-sizing: initial;
+    cursor: pointer;
+    flex: 0 1 auto;
+    height: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    opacity: 0;
+    padding: 0;
+    text-indent: -999px;
+    transition: opacity .6s ease;
+    width: 30px;
+    position: absolute;
+}
+
+/* .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5% !important;
+    padding: 0;
+    color: transparent;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+
+.carousel-control-next {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5% !important;
+    padding: 0;
+    color: transparent;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+} */
+
+.carousel-control-next1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.carousel-control-next1 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+.carousel-control-prev1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.carousel-control-prev1 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+
+/* 1 || Kidsbackground */
+.homekidssec1maindiv {
+    position: relative;
+
+}
+
+.homekidssec1maindiv img {
+    position: relative;
+}
+
+.homekidssec1maindiv .divvv {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.379);
+}
+
+.homekidssec1maindiv .kidsdiv {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv1 {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+    color: var(--textdark-color);
+
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h6 {
+    color: var(--data-colorlogo);
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none !important;
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv1:hover .subkidsdiv1 .subkidsdiv1h6 {
+    text-decoration: underline !important;
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv2 {
+    position: absolute;
+    background-color: rgba(53, 52, 52, 0.393);
+    width: 100%;
+    height: 100%;
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv2 {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: cursive;
+    color: var(--textdark-color);
+
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h6 {
+    color: var(--data-colorlogo);
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none !important;
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv2:hover .subkidsdiv1 .subkidsdiv1h6 {
+    text-decoration: underline !important;
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv2 {
+    position: absolute;
+    background-color: rgba(53, 52, 52, 0.393);
+    width: 100%;
+    height: 100%;
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv3 {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(252, 82, 82);
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6 {
+    position: relative;
+    color: var(--white-color);
+
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6::after {
+    content: "";
+    position: absolute;
+    /* // top: 135%; */
+    width: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* // height: 3px; */
+    background-color: var(--white-color);
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h2 {
+    color: rgba(255, 255, 255, 0.663);
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv4 {
+    position: absolute;
+    background-color: rgb(90, 89, 89);
+    font-family: cursive;
+
+
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6 {
+    /* // font-size: 18px; */
+    position: relative;
+    color: var(--white-color);
+
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6::after {
+    content: "";
+    position: absolute;
+    /* // top: 135%; */
+    width: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* // height: 3px; */
+    background-color: var(--data-colorlogo);
+}
+
+.homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h2 {
+    color: rgba(255, 255, 255, 0.663);
+}
+
+.homekidssec1maindiv .kidsdiv5 {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: var(--white-color);
+    font-family: cursive;
+
+}
+
+.homekidssec1maindiv .kidsdiv5 a {
+    border: 2px solid var(--data-colorlogo);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.homekidssec1maindiv .kidsdiv5 a:hover {
+    background-color: var(--data-colorlogo);
+    color: var(--white-color);
+}
+
+/* 2 || Kidstraingle */
+
+.homekidssec2maindiv {
+    display: flex;
+    position: relative;
+
+}
+
+.homekidssec2maindiv .h1 {
+    position: absolute;
+    top: 0;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: grey;
+
+}
+
+.homekidssec2maindiv .h1 div {
+    position: absolute;
+    top: 0;
+    background-color: rgba(135, 207, 235, 0.429);
+    width: 100%;
+    height: 100%;
+}
+
+.homekidssec2maindiv .h2 {
+    position: absolute;
+    top: 0;
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    background-color: grey;
+
+}
+
+.homekidssec2maindiv .h2 div {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.234);
+    width: 100%;
+    height: 100%;
+}
+
+.homekidssec2maindiv .h3 {
+    position: absolute;
+    top: 0;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: grey;
+
+}
+
+.homekidssec2maindiv .h3 div {
+    position: absolute;
+    top: 0;
+    background-color: rgba(255, 192, 203, 0.438);
+    width: 100%;
+    height: 100%;
+}
+
+/* 3 || Kidsboysec */
+.boy {
+    background-color: rgba(135, 207, 235, 0.523);
+}
+
+.homekidssec3maindiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.homekidssec3maindiv .homekidssec3subdiv1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 15px 15px 15px 0px;
+
+}
+
+.homekidssec3maindiv .homekidssec3subdiv1 div {
+    width: 100%;
+
+}
+
+.homekidssec3maindiv .homekidssec3subdiv1 div img {
+    height: 300px;
+    width: 300px;
+}
+
+/* .homekidssec3maindiv .homekidssec3subdiv1 div div {
+    } */
+.homekidssec3maindiv .homekidssec3subdiv1 div div h2 {
+    color: var(--textdark-color);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.homekidssec3maindiv .homekidssec3subdiv1 div div p {
+    color: var(--textlight-color);
+}
+
+.homekidssec3maindiv .homekidssec3subdiv1 div div a {
+    color: var(--data-colorlogo);
+    transition: all 0.5s ease-in-out;
+    font-family: cursive;
+}
+
+.homekidssec3maindiv .homekidssec3subdiv1 div div a:hover {
+    text-decoration: underline;
+}
+
+.homekidssec3maindiv .homekidssec3subdiv2 {
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.homekidssec3maindiv .homekidssec3subdiv2 .homekidssec3car {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    padding-top: 10px;
+
+
+}
+
+.homekidssec3maindiv .homekidssec3subdiv2 .homekidssec3car .homekidssec3carsubdiv1 {
+    width: 95%;
+    margin: 0 auto;
+    height: 500px;
+
+}
+
+.homekidssec3maindiv .homekidssec3subdiv2 .homekidssec3car .homekidssec3carsubdiv2 {
+    height: 90px;
+    width: 100%;
+    font-family: cursive;
+
+
+}
+
+.homekidssec3maindiv .homekidssec3subdiv2 .homekidssec3car .homekidssec3carsubdiv2 h2 {
+    color: var(--textdark-color);
+}
+
+.homekidssec3maindiv .homekidssec3subdiv2 .homekidssec3car .homekidssec3carsubdiv2 h5 {
+    color: var(--textlight-color);
+}
+
+/* 4 || Kidsgirlsec */
+
+.girl {
+    background-color: rgba(255, 192, 203, 0.533);
+}
+
+.homekidssec4maindiv {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.homekidssec4maindiv .homekidssec4subdiv1 {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 15px 0px 15px 15px;
+
+}
+
+.homekidssec4maindiv .homekidssec4subdiv1 div {
+    width: 100%;
+
+}
+
+.homekidssec4maindiv .homekidssec4subdiv1 div img {
+    height: 300px;
+    width: 300px;
+}
+
+/* .homekidssec4maindiv .homekidssec4subdiv1 div div {} */
+
+.homekidssec4maindiv .homekidssec4subdiv1 div div h2 {
+    color: var(--textdark-color);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.homekidssec4maindiv .homekidssec4subdiv1 div div p {
+    color: var(--textlight-color);
+
+}
+
+.homekidssec4maindiv .homekidssec4subdiv1 div div a {
+    color: var(--data-colorlogo);
+    transition: all 0.5s ease-in-out;
+    font-family: cursive;
+}
+
+.homekidssec4maindiv .homekidssec4subdiv1 div div a:hover {
+    text-decoration: underline;
+}
+
+.homekidssec4maindiv .homekidssec4subdiv2 {
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.homekidssec4maindiv .homekidssec4subdiv2 .homekidssec4car {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+    padding-top: 10px;
+}
+
+.homekidssec4maindiv .homekidssec4subdiv2 .homekidssec4car .homekidssec4carsubdiv1 {
+    width: 95%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.homekidssec4maindiv .homekidssec4subdiv2 .homekidssec4car .homekidssec4carsubdiv2 {
+    height: 90px;
+    width: 100%;
+    font-family: cursive;
+}
+
+.homekidssec4maindiv .homekidssec4subdiv2 .homekidssec4car .homekidssec4carsubdiv2 h2 {
+    color: var(--textdark-color);
+}
+
+.homekidssec4maindiv .homekidssec4subdiv2 .homekidssec4car .homekidssec4carsubdiv2 h5 {
+    color: var(--textlight-color);
+}
+
+.kidspage img {
+    position: relative;
+}
+
+.kidspage .kidspagefirstclass {
+    position: absolute;
+    top: 20%;
+    right: 40%;
+    width: 100px;
+}
+
+.kidspage .kidspagefirstclass .bigtext1 {
+    font-size: 90px;
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.kidspage .kidspagesecondclass {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+}
+
+.kidspage .kidspagesecondclass .bigtext2 {
+    font-size: 90px;
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.kidspage .kidspagethirdclass {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 700px;
+}
+
+.kidspage .kidspagethirdclass .bigtext3 {
+    font-size: 90px;
+    color: var(--white-color);
+    font-weight: 600;
+}
+
+.carousel-indicatorskidspage [data-bs-target] {
+    background-clip: padding-box;
+    background-color: #ffffffa7;
+    border: 0;
+    border-bottom: 10px solid #0000;
+    border-top: 10px solid #0000;
+    box-sizing: initial;
+    cursor: pointer;
+    flex: 0 1 auto;
+    height: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    opacity: 1;
+    padding: 0;
+    text-indent: -999px;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicatorskidspage [data-bs-target]:first-child {
+    background-image: url("./../public/Kids/kidspage/bgi1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-indicatorskidspage [data-bs-target]:nth-child(2) {
+    background-image: url("./../public/Kids/kidspage/bgi2.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-indicatorskidspage [data-bs-target]:nth-child(3) {
+    background-image: url("./../public/Kids/kidspage/bgi3.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.kidspagetext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(var(--rgbdata-colorlogo), 0.523);
+}
+
+.kidspagetext h1 {
+    position: relative;
+    color: var(--white-color);
+}
+
+.kidspagetext h1::after {
+    content: "";
+    position: absolute;
+    background-color: var(--data-colorlogo);
+}
+
+.kidspagetext h3 {
+
+    color: var(--data-colorlogo);
+    position: relative;
+}
+
+.kidspagetext h3::after {
+    content: "";
+    position: absolute;
+    background-color: var(--data-colorlogo);
+}
+
+.kidspagetext h2 {
+    color: var(--white-color);
+}
+
+/* // -------------------------------------------------------------------- RESPONSIVE */
+
+@media only screen and (max-width: 345.98px) {
+    /* .homekidssec1maindiv {}
+
+    .homekidssec1maindiv .kidsdiv {} */
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 {
+        left: 15px !important;
+        width: 90px !important;
+        height: 65px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 {
+        right: 0px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 14px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 14px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 8px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 {
+        width: 90px !important;
+        height: 88px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 {
+        right: 0px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 14px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 14px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 8px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 {
+        right: 15px !important;
+        width: 90px !important;
+        height: 74px !important;
+        padding: 0px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6 {
+        font-size: 12px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6::after {
+        top: 120% !important;
+        height: 2px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h2 {
+        font-size: 10px !important;
+        padding: 0px 0px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 {
+        bottom: 86px !important;
+        right: 15px !important;
+        width: 90px !important;
+        height: 55px !important;
+        padding: 0px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6 {
+        font-size: 12px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6::after {
+        top: 120% !important;
+        height: 2px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h2 {
+        font-size: 10px !important;
+        padding: 0px 0px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 {
+        top: 16px !important;
+        left: 10px !important;
+        width: 200px !important;
+        height: 67px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h1 {
+        font-size: 25px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h2 {
+        font-size: 15px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h3 {
+        font-size: 12px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 a {
+        padding: 0px 12px !important;
+        font-size: 9px !important;
+    }
+
+    .homekidssec2maindiv {
+        height: 300px !important;
+
+    }
+
+    .homekidssec2maindiv .h1 {
+        width: 47% !important;
+        height: 100% !important;
+        left: 0px !important;
+    }
+
+    .homekidssec2maindiv .h2 {
+        width: 47% !important;
+        height: 100% !important;
+        left: 89px !important;
+
+    }
+
+    .homekidssec2maindiv .h3 {
+        right: 0px !important;
+        width: 47% !important;
+        height: 100% !important;
+    }
+    .kidspagetext h1 {
+        font-size: 20px !important;
+    }
+    
+    .kidspagetext h1::after {
+        top: 120% !important;
+        left: -38% !important;
+        width: 178% !important;
+        height: 2px !important;
+    }
+    
+    .kidspagetext h3 {
+        font-size: 8px !important;
+    }
+    
+    .kidspagetext h3::after {
+        top: 116% !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 2px !important;
+    }
+    
+    .kidspagetext h2 {
+        font-size: 13px !important;
+    }
+
+
+}
+
+@media only screen and ((min-width: 350px) and (max-width: 380px)) {
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 {
+        left: 25px !important;
+        width: 100px !important;
+        height: 80px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 {
+        right: 0px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 16px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 16px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 9px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 {
+        width: 100px !important;
+        height: 100px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 {
+        right: 0px !important;
+        top: 20%;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 16px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 16px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 9px !important;
+        font-weight: bold;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 {
+        right: 25px !important;
+        width: 100px !important;
+        height: 75px !important;
+        padding: 0px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6 {
+        font-size: 12px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6::after {
+        top: 120% !important;
+        height: 2px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h2 {
+        font-size: 10px !important;
+        padding: 0px 0px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 {
+        bottom: 86px !important;
+        right: 25px !important;
+        width: 100px !important;
+        height: 60px !important;
+        padding: 5px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6 {
+        font-size: 12px !important;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6::after {
+        top: 120% !important;
+        height: 2px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h2 {
+        font-size: 10px !important;
+        padding: 0px 0px !important;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 {
+        top: 13px !important;
+        left: 10px !important;
+        width: 230px !important;
+        height: 100px;
+    }
+
+    .homekidssec2maindiv {
+        height: 300px !important;
+
+    }
+
+    .homekidssec2maindiv .h1 {
+        width: 47% !important;
+        height: 100% !important;
+        left: 0px !important;
+    }
+
+    .homekidssec2maindiv .h2 {
+        width: 47% !important;
+        height: 100% !important;
+        left: 100px !important;
+    }
+
+    .homekidssec2maindiv .h3 {
+        right: 0px !important;
+        width: 47% !important;
+        height: 100% !important;
+    }
+    .kidspagetext h1 {
+        font-size: 22px !important;
+    }
+    
+    .kidspagetext h1::after {
+        top: 110% !important;
+        left: -41% !important;
+        width: 183% !important;
+        height: 2px !important;
+    }
+    
+    .kidspagetext h3 {
+        font-size: 9px !important;
+    }
+    
+    .kidspagetext h3::after {
+        top: 113% !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 2px !important;
+    }
+    
+    .kidspagetext h2 {
+        font-size: 15px !important;
+    }
+
+}
+
+@media only screen and (max-width: 575.98px) {
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 {
+        left: 20px;
+        width: 120px;
+        height: 100px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 {
+        right: 6px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 19px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h2 {
+        font-size: 19px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 11px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 {
+        width: 120px;
+        height: 130px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 {
+        right: 0px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h1 {
+        font-size: 19px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h2 {
+        font-size: 19px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 11px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 {
+        right: 20px;
+        width: 120px;
+        height: 100px;
+        padding: 2px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6 {
+        font-size: 15px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6::after {
+        top: 130%;
+        height: 2px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h2 {
+        font-size: 12px;
+        padding: 0px 0px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 {
+        bottom: 111px;
+        right: 20px;
+        width: 120px;
+        height: 80px;
+        padding: 5px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6 {
+        font-size: 15px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6::after {
+        top: 130%;
+        height: 2px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h2 {
+        font-size: 12px;
+        padding: 0px 0px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 {
+        top: 13px;
+        left: 15px;
+        width: 250px;
+        height: 100px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h1 {
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h2 {
+        font-size: 16px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h3 {
+        font-size: 13px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 a {
+        margin-top: 4px;
+        padding: 3px 12px;
+        font-size: 8px;
+    }
+
+    .homekidssec2maindiv {
+        height: 300px;
+    }
+
+    .homekidssec2maindiv .h1 {
+        width: 47%;
+        height: 100%;
+        left: 0px;
+    }
+
+    .homekidssec2maindiv .h2 {
+        width: 47%;
+        height: 100%;
+        left: 113px;
+    }
+
+    .homekidssec2maindiv .h3 {
+        right: 0px;
+        width: 47%;
+        height: 100%;
+    }
+
+    .carousel-indicatorskidspage [data-bs-target] {
+        width: 30px;
+        height: 30px;
+    }
+    .kidspagetext h1 {
+        font-size: 25px;
+    }
+    
+    .kidspagetext h1::after {
+        top: 114%;
+        left: -31%;
+        width: 163%;
+        height: 2px;
+    }
+    
+    .kidspagetext h3 {
+        font-size: 9px;
+    }
+    
+    .kidspagetext h3::after {
+        top: 110%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+    }
+    
+    .kidspagetext h2 {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 575.98px) {
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 {
+        left: 20px;
+        width: 120px;
+        height: 100px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 {
+        right: 6px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h1 {
+        font-size: 19px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h2 {
+        font-size: 19px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 11px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 {
+        width: 120px;
+        height: 130px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 {
+        right: 0px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h1 {
+        font-size: 19px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h2 {
+        font-size: 19px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 11px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 {
+        right: 20px;
+        width: 120px;
+        height: 100px;
+        padding: 2px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6 {
+        font-size: 15px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6::after {
+        top: 130%;
+        height: 2px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h2 {
+        font-size: 12px;
+        padding: 0px 0px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 {
+        bottom: 111px;
+        right: 20px;
+        width: 120px;
+        height: 80px;
+        padding: 5px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6 {
+        font-size: 15px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6::after {
+        top: 130%;
+        height: 2px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h2 {
+        font-size: 12px;
+        padding: 0px 0px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 {
+        top: 13px;
+        left: 15px;
+        width: 250px;
+        height: 100px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h1 {
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h2 {
+        font-size: 16px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h3 {
+        font-size: 13px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 a {
+        margin-top: 4px;
+        padding: 3px 12px;
+        font-size: 8px;
+    }
+
+    .homekidssec2maindiv {
+        height: 300px;
+    }
+
+    .homekidssec2maindiv .h1 {
+        width: 47%;
+        height: 100%;
+        left: 0px;
+    }
+
+    .homekidssec2maindiv .h2 {
+        width: 47%;
+        height: 100%;
+        left: 143px;
+    }
+
+    .homekidssec2maindiv .h3 {
+        right: 0px;
+        width: 47%;
+        height: 100%;
+    }
+
+    .carousel-indicatorskidspage [data-bs-target] {
+        width: 30px;
+        height: 30px;
+    }
+    .kidspagetext h1 {
+        font-size: 25px;
+    }
+    
+    .kidspagetext h1::after {
+        top: 114%;
+        left: -40%;
+        width: 180%;
+        height: 2px;
+    }
+    
+    .kidspagetext h3 {
+        font-size: 10px;
+    }
+    
+    .kidspagetext h3::after {
+        top: 110%;
+        left: 0;
+        width: 100%;
+        height: 2px;
+    }
+    
+    .kidspagetext h2 {
+        font-size: 17px;
+    }
+   
+
+}
+
+@media only screen and (min-width: 767.98px) {
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 {
+        left: 30px;
+        width: 210px;
+        height: 140px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 {
+        right: 10px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 25px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 25px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 12px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 {
+        width: 210px;
+        height: 190px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 {
+        right: 10px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 25px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 25px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 12px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 {
+        right: 30px;
+        width: 210px;
+        height: 120px;
+        padding: 3px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6 {
+        font-size: 22px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6::after {
+        top: 135%;
+        height: 3px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h2 {
+        font-size: 16px;
+        padding: 0px 12px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 {
+        bottom: 140px;
+        right: 30px;
+        width: 210px;
+        height: 90px;
+        padding: 3px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6 {
+        font-size: 25px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6::after {
+        top: 135%;
+        height: 3px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h2 {
+        font-size: 16px;
+        padding: 0px 12px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 {
+        top: 40px;
+        left: 30px;
+        width: 430px;
+        height: 200px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h1 {
+        font-size: 50px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h2 {
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h3 {
+        font-size: 20px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 a {
+        padding: 7px 16px;
+        font-size: 14px;
+    }
+
+    .homekidssec2maindiv {
+        height: 400px;
+
+    }
+
+    .homekidssec2maindiv .h1 {
+        width: 48%;
+        height: 100%;
+        left: 0px;
+    }
+
+    .homekidssec2maindiv .h2 {
+        width: 48%;
+        height: 100%;
+        left: 187px;
+    }
+
+    .homekidssec2maindiv .h3 {
+        right: 0px;
+        width: 48%;
+        height: 100%;
+    }
+
+    .carousel-indicatorskidspage [data-bs-target] {
+        width: 50px;
+        height: 50px;
+    }
+    .kidspagetext h1 {
+        font-size: 40px;
+    }
+    
+    .kidspagetext h1::after {
+        top: 100%;
+        left: -50%;
+        width: 202%;
+        height: 3px;
+    }
+    
+    .kidspagetext h3 {
+        font-size: 18px;
+    }
+    
+    .kidspagetext h3::after {
+        top: 110%;
+        left: 0;
+        width: 100%;
+        height: 3px;
+    }
+    
+    .kidspagetext h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 991.98px) {
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 {
+        left: 65px;
+        width: 260px;
+        height: 170px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 {
+        right: 10px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 13px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 {
+        width: 260px;
+        height: 220px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 {
+        right: 10px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 13px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 {
+        right: 65px;
+        width: 260px;
+        height: 140px;
+        padding: 3px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6 {
+        font-size: 25px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6::after {
+        top: 135%;
+        height: 3px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h2 {
+        font-size: 16px;
+        padding: 0px 40px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 {
+        bottom: 165px;
+        right: 65px;
+        width: 260px;
+        height: 90px;
+        padding: 3px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6 {
+        font-size: 25px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6::after {
+        top: 135%;
+        height: 3px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h2 {
+        font-size: 16px;
+        padding: 0px 40px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 {
+        top: 90px;
+        left: 50px;
+        width: 500px;
+        height: 300px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h1 {
+        font-size: 80px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h2 {
+        font-size: 40px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h3 {
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 a {
+        padding: 10px 20px;
+    }
+
+
+    .homekidssec2maindiv {
+        height: 400px;
+
+    }
+
+    .homekidssec2maindiv .h1 {
+        width: 42%;
+        height: 100%;
+        left: 60px;
+    }
+
+    .homekidssec2maindiv .h2 {
+        width: 42%;
+        height: 100%;
+        left: 279px;
+    }
+
+    .homekidssec2maindiv .h3 {
+        right: 60px;
+        width: 42%;
+        height: 100%;
+    }
+
+    .carousel-indicatorskidspage [data-bs-target] {
+        width: 50px;
+        height: 50px;
+    }
+   
+    .kidspagetext h1 {
+        font-size: 50px;
+    }
+    
+    .kidspagetext h1::after {
+        top: 100%;
+        left: -63%;
+        width: 225%;
+        height: 3px;
+    }
+    
+    .kidspagetext h3 {
+        font-size: 25px;
+    }
+    
+    .kidspagetext h3::after {
+        top: 110%;
+        left: 0;
+        width: 100%;
+        height: 3px;
+    }
+    
+    .kidspagetext h2 {
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 {
+        left: 140px;
+        width: 260px;
+        height: 170px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 {
+        right: 10px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 13px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 {
+        width: 260px;
+        height: 220px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 {
+        right: 10px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 13px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 {
+        right: 140px;
+        width: 260px;
+        height: 140px;
+        padding: 3px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6 {
+        font-size: 25px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6::after {
+        top: 135%;
+        height: 3px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h2 {
+        font-size: 16px;
+        padding: 0px 40px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 {
+        bottom: 165px;
+        right: 140px;
+        width: 260px;
+        height: 90px;
+        padding: 3px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6 {
+        font-size: 25px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6::after {
+        top: 135%;
+        height: 3px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h2 {
+        font-size: 16px;
+        padding: 0px 40px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 {
+        top: 90px;
+        left: 50px;
+        width: 500px;
+        height: 300px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h1 {
+        font-size: 80px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h2 {
+        font-size: 40px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 .kidsdiv5h3 {
+        font-size: 30px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 a {
+        padding: 10px 20px;
+    }
+
+
+    .homekidssec2maindiv {
+        height: 400px;
+
+    }
+
+    .homekidssec2maindiv .h1 {
+        width: 42%;
+        height: 100%;
+        left: 60px;
+    }
+
+    .homekidssec2maindiv .h2 {
+        width: 42%;
+        height: 100%;
+        left: 332px;
+    }
+
+    .homekidssec2maindiv .h3 {
+        right: 60px;
+        width: 42%;
+        height: 100%;
+    }
+    .kidspagetext h1 {
+        font-size: 90px;
+    }
+    
+    .kidspagetext h1::after {
+        top: 100%;
+        left: -37%;
+        width: 174%;
+        height: 3px;
+    }
+    
+    .kidspagetext h3 {
+        font-size: 35px;
+    }
+    
+    .kidspagetext h3::after {
+        top: 110%;
+        left: 0;
+        width: 100%;
+        height: 3px;
+    }
+    
+    .kidspagetext h2 {
+        font-size: 60px;
+    }
+
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 {
+        left: 120px;
+        width: 340px;
+        height: 210px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 {
+        right: 10px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 40px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 40px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv1 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 14px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 {
+        width: 340px;
+        height: 260px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 {
+        right: 10px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h1 {
+
+        font-size: 40px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h2 {
+
+        font-size: 40px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv2 .subkidsdiv1 .subkidsdiv1h6 {
+        font-size: 14px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 {
+        right: 120px;
+        width: 340px;
+        height: 170px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6 {
+        font-size: 28px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h6::after {
+        top: 135%;
+        height: 3px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv3 .kidsdiv3h2 {
+        font-size: 20px;
+        padding: 0px 60px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 {
+        bottom: 200px;
+        right: 120px;
+        width: 340px;
+        height: 120px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6 {
+        font-size: 28px;
+
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h6::after {
+        top: 120%;
+        height: 3px;
+    }
+
+    .homekidssec1maindiv .kidsdiv .kidsdiv4 .kidsdiv4h2 {
+        font-size: 20px;
+        padding: 0px 60px;
+    }
+
+    .homekidssec1maindiv .kidsdiv5 {
+        top: 150px;
+        left: 50px;
+        width: 600px;
+        height: 400px;
+
+    }
+
+    .homekidssec2maindiv {
+        height: 500px;
+
+    }
+
+    .homekidssec2maindiv .h1 {
+        width: 40%;
+        height: 100%;
+        left: 110px;
+    }
+
+    .homekidssec2maindiv .h2 {
+        width: 40%;
+        height: 100%;
+        left: 396px
+    }
+
+    .homekidssec2maindiv .h3 {
+        right: 110px;
+        width: 40%;
+        height: 100%;
+    }
+}

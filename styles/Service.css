@@ -1,0 +1,526 @@
+/* 1 || Servicethreediv */
+/* .service1maindiv {
+} */
+.service1maindiv .service1subdiv {
+    /* // border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.service1maindiv .service1subdiv a {
+    font-size: 40px;
+    color: var(--data-colorlogo);
+    transition: all 0.5s ease-in-out;
+
+}
+
+.service1maindiv .service1subdiv a:hover {
+    transform: scale(1.4);
+    color: var(--data-colorlogo);
+
+}
+
+.service1maindiv .service1subdiv h3 {
+    font-family: cursive;
+    font-weight: 600;
+    color: var(--textdark-color);
+}
+
+.service1maindiv .service1subdiv p {
+    font-family: cursive;
+    color: var(--textlight-color);
+}
+
+/* 2 || Serviceimagesec */
+
+.service2maindiv {
+    /* // height: 500px; */
+    display: flex;
+
+
+}
+
+.service2maindiv .service2subdiv1 {
+    height: 100%;
+    width: 100%;
+    background-color: var(--data-colorlogo);
+    position: relative;
+}
+
+.service2maindiv .service2subdiv2 {
+    position: absolute;
+    /* // top: 0.5px; */
+    /* // right: -1px; */
+    /* // bottom: -1px; */
+    height: 100%;
+    /* // width: 50%; */
+    clip-path: polygon(25% 0, 100% 0, 100% 100%, 0% 100%);
+    background-image: url("./../public/Service/homeservice/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service2maindiv .service2subdiv3 {
+    position: absolute;
+    /* // left: 7%; */
+    height: 100%;
+    color: var(--white-color);
+    color: var(--textdark-color);
+    font-family: cursive;
+    display: flex;
+    justify-content: center;
+    /* // align-items:center ; */
+    flex-direction: column;
+
+
+}
+
+.service2maindiv .service2subdiv3 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* // font-size: 45px; */
+}
+
+.service2maindiv .service2subdiv3 h2 {
+    /* // font-size: 33px; */
+    font-weight: 600;
+}
+
+.service2maindiv .service2subdiv4 {
+    position: absolute;
+    /* // bottom: 10%;
+    // left: 5%; */
+    color: var(--textlight-color);
+    font-weight: 600;
+
+
+}
+
+/* ------------------------------------------- */
+/* ---------------servicepage----------------- */
+/* ------------------------------------------- */
+.servicepage .servicestarth2 {
+    color: var(--textdark-color);
+    position: relative;
+}
+
+.servicepage .servicestarth2::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(var(--rgbtextdark-color), 0.54);
+}
+
+.servicepage .servicebtn {
+    color: var(--white-color);
+    background-color: var(--data-colorlogo);
+    border: transparent !important;
+    padding: 10px 20px;
+
+}
+.servicepage h1 {
+    color: var(--textdark-color);
+}
+
+.servicepage p {
+    text-align: center;
+    color: var(--textlight-color);
+}
+
+/* first */
+.servicepage .servicepagefirstsec .iconss {
+    color: rgba(var(--rgbdata-colorlogo), 0.74);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.servicepage .servicepagefirstsec .iconss:hover {
+    color: var(--data-colorlogo);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.servicepage .servicepagefirstsec img {
+    height: 50px;
+}
+
+.servicepage .servicepagefirstsec h3 {
+    color: var(--textdark-color);
+}
+
+.servicepage .servicepagefirstsec p {
+    color: var(--textlight-color);
+    padding: 0px;
+}
+
+/* second */
+.servicepage .servicepagesecondsec {
+    border: none !important;
+    position: relative;
+    background-color: rgba(var(--rgbtextlight-color), 0.54);
+}
+
+.servicepage .servicepagesecondsec .servicetextset {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.servicepage .servicepagesecondsec h1 {
+    color: var(--white-color);
+}
+
+.servicepage .servicepagesecondsec p {
+    color: rgba(var(--rgbwhite-color), 0.74);
+    text-align: start;
+}
+
+.servicepage .servicepagesecondsec .servicepagesecondsec2 {
+    border: none !important;
+    position: absolute;
+    background-color: white;
+    border-radius: 80% 80% 0% 0%;
+    bottom: -0%;
+}
+/* third */
+.servicepage .servicepagethirdsec {
+    /* height: 400px; */
+    border: none !important;
+    background-color: rgba(var(--rgbtextlight-color), 0.54);
+}
+.servicepage .servicepagethirdsec h1{
+    color: var(--white-color);
+    /* font-size: 50px; */
+}
+.servicepage .servicepagethirdsec p{
+    color: rgba(var(--rgbwhite-color), 0.74);
+    text-align: start;
+}
+
+
+/* // -------------------------------------------------------------------- RESPONSIVE */
+
+@media only screen and (max-width: 345.98px) {
+    .service2maindiv {
+        height: 330px !important;
+
+    }
+
+    .service2maindiv .service2subdiv2 {
+        top: 0px !important;
+        right: -1px !important;
+        bottom: -1px !important;
+        width: 50% !important;
+    }
+
+    .service2maindiv .service2subdiv3 {
+        left: 1% !important;
+        width: 200px !important;
+
+    }
+
+    .service2maindiv .service2subdiv3 a {
+        font-size: 30px !important;
+    }
+
+    .service2maindiv .service2subdiv3 h2 {
+        font-size: 20px !important;
+    }
+
+    .service2maindiv .service2subdiv4 {
+        bottom: 10% !important;
+        left: 2% !important;
+        font-size: 14px !important;
+    }
+    .servicepage .servicepagesecondsec {
+        height: 1430px !important;
+    }
+
+    .servicepage .servicepagesecondsec .servicepagesecondsec2 {
+        width: 100% !important;
+        height: 158px !important;
+        left: -0px !important;
+    }
+    .servicepage .servicepagethirdsec h1{
+        font-size: 23px !important;
+    }
+}
+
+@media only screen and ((min-width: 350px) and (max-width: 380px)) {
+    .service2maindiv {
+        height: 350px !important;
+
+    }
+
+    .service2maindiv .service2subdiv2 {
+        top: 0px !important;
+        right: -1px !important;
+        bottom: -1px !important;
+        width: 50% !important;
+    }
+
+    .service2maindiv .service2subdiv3 {
+        left: 1% !important;
+        width: 220px !important;
+
+    }
+
+    .service2maindiv .service2subdiv3 a {
+        font-size: 33px !important;
+    }
+
+    .service2maindiv .service2subdiv3 h2 {
+        font-size: 23px !important;
+    }
+
+    .service2maindiv .service2subdiv4 {
+        bottom: 10% !important;
+        left: 2% !important;
+        font-size: 16px !important;
+    }
+    .servicepage .servicepagesecondsec {
+        height: 1530px !important;
+    }
+
+    .servicepage .servicepagesecondsec .servicepagesecondsec2 {
+        width: 100% !important;
+        height: 168px !important;
+        left: -0px !important;
+    }
+    .servicepage .servicepagethirdsec h1{
+        font-size: 28px !important;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .service2maindiv {
+        height: 350px;
+
+    }
+
+    .service2maindiv .service2subdiv2 {
+        top: 0px;
+        right: -1px;
+        bottom: -1px;
+        width: 50%;
+    }
+
+    .service2maindiv .service2subdiv3 {
+        left: 3%;
+        width: 230px;
+
+    }
+
+    .service2maindiv .service2subdiv3 a {
+        font-size: 35px;
+    }
+
+    .service2maindiv .service2subdiv3 h2 {
+        font-size: 23px;
+    }
+
+    .service2maindiv .service2subdiv4 {
+        bottom: 10%;
+        left: 2%;
+        font-size: 18px;
+    }
+    .servicepage .servicepagesecondsec {
+        height: 1630px ;
+    }
+
+    .servicepage .servicepagesecondsec .servicepagesecondsec2 {
+        width: 100%;
+        height: 168px;
+        left: -0px;
+    }
+    .servicepage .servicepagethirdsec h1{
+        font-size: 30px;
+    }
+}
+
+@media only screen and ((min-width: 426px) and (max-width: 575px)) {
+    .servicepage .servicepagesecondsec {
+        height: 1800px ;
+    }
+
+    .servicepage .servicepagesecondsec .servicepagesecondsec2 {
+        width: 100%;
+        height: 128px;
+        left: -0px;
+    }
+    .servicepage .servicepagethirdsec h1{
+        font-size: 33px;
+    }
+}
+@media only screen and (min-width: 575.98px) {
+    .service2maindiv {
+        height: 350px;
+
+    }
+
+    .service2maindiv .service2subdiv2 {
+        top: 0px;
+        right: -1px;
+        bottom: -1px;
+        width: 50%;
+    }
+
+    .service2maindiv .service2subdiv3 {
+        left: 3%;
+        width: 230px;
+
+    }
+
+    .service2maindiv .service2subdiv3 a {
+        font-size: 35px;
+    }
+
+    .service2maindiv .service2subdiv3 h2 {
+        font-size: 23px;
+    }
+
+    .service2maindiv .service2subdiv4 {
+        bottom: 10%;
+        left: 2%;
+        font-size: 18px;
+    }
+    .servicepage .servicepagesecondsec {
+        height: 1830px ;
+    }
+
+    .servicepage .servicepagesecondsec .servicepagesecondsec2 {
+        width: 100%;
+        height: 168px;
+        left: -0px;
+    }
+    .servicepage .servicepagethirdsec h1{
+        font-size: 40px;
+    }
+}
+
+@media only screen and (min-width: 767.98px) {
+    .service2maindiv {
+        height: 500px;
+
+    }
+
+    .service2maindiv .service2subdiv2 {
+        top: 0px;
+        right: -1px;
+        bottom: -1px;
+        width: 50%;
+    }
+
+    .service2maindiv .service2subdiv3 {
+        left: 3%;
+        width: 400px;
+
+    }
+
+    .service2maindiv .service2subdiv3 a {
+        font-size: 45px;
+    }
+
+    .service2maindiv .service2subdiv3 h2 {
+        font-size: 33px;
+    }
+
+    .service2maindiv .service2subdiv4 {
+        bottom: 10%;
+        left: 2%;
+        font-size: 20px;
+    }
+    .servicepage .servicepagesecondsec {
+        height: 1000px ;
+    }
+
+    .servicepage .servicepagesecondsec .servicepagesecondsec2 {
+        width: 104%;
+        height: 168px;
+        left: -23px;
+    }
+    .servicepage .servicepagethirdsec h1{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 991.98px) {
+    .service2maindiv {
+        height: 500px;
+
+    }
+
+    .service2maindiv .service2subdiv2 {
+        top: 0px;
+        right: -1px;
+        bottom: -1px;
+        width: 50%;
+    }
+
+    .service2maindiv .service2subdiv3 {
+        left: 7%;
+        width: 600px;
+
+    }
+
+    .service2maindiv .service2subdiv3 a {
+        font-size: 45px;
+    }
+
+    .service2maindiv .service2subdiv3 h2 {
+        font-size: 33px;
+    }
+
+    .service2maindiv .service2subdiv4 {
+        bottom: 10%;
+        left: 5%;
+        font-size: 23px;
+    }
+
+    .servicepage .servicepagesecondsec {
+        height: 1230px ;
+    }
+
+    .servicepage .servicepagesecondsec .servicepagesecondsec2 {
+        width: 104%;
+        height: 168px;
+        left: -23px;
+    }
+    .servicepage .servicepagethirdsec h1{
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .servicepage .servicepagesecondsec {
+        height: 1430px ;
+    }
+
+    .servicepage .servicepagesecondsec .servicepagesecondsec2 {
+        width: 104%;
+        height: 168px;
+        left: -23px;
+    }
+    .servicepage .servicepagethirdsec h1{
+        font-size: 42px;
+    }
+}
+@media only screen and (min-width: 1400px) {
+    .servicepage .servicepagesecondsec {
+        height: 1625px ;
+    }
+
+    .servicepage .servicepagesecondsec .servicepagesecondsec2 {
+        width: 104%;
+        height: 168px;
+        left: -23px;
+    }
+    .servicepage .servicepagethirdsec h1{
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,424 @@
+/* // 11111...Background */
+.carousel-indicators1 [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    /* @include widthheight(30px, 3px); */
+    padding: 0;
+    margin-right: 5px;
+    margin-left: 5px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: none;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.7;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+    position: relative;
+
+}
+.carousel-indicators1 [data-bs-target]:first-child {
+    background-image: url("./../public/Background/backgroundhome/kidsbg1.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-indicators1 [data-bs-target]:nth-child(2) {
+    background-image: url("./../public/Background/backgroundhome/menbg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+}
+
+.carousel-indicators1 [data-bs-target]:nth-child(3) {
+    background-image: url("./../public/Background/backgroundhome/womenbg2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 1.25rem;
+    left: 0;
+    /* @include topleft(1.25rem, 0); */
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: var(--white-color);
+    text-align: center;
+
+}
+
+.backgrounddiv .carousel-control-next,
+.backgrounddiv .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 0;
+    color: transparent;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+    opacity: 0;
+    transition: opacity .15s ease;
+
+}
+.backgrounddiv .carousel-control-next:focus,
+.backgrounddiv .carousel-control-next:active,
+.backgrounddiv .carousel-control-next:hover {
+    opacity: 0;
+}
+.backgrounddiv .carousel-control-prev:focus,
+.backgrounddiv .carousel-control-prev:active,
+.backgrounddiv .carousel-control-prev:hover {
+    opacity: 0;
+}
+
+.bg1Kidstextsetdiv {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+
+}
+.bg1Kidstextsetdiv h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg1Kidstextsetdiv h1 {
+    font-family: cursive;
+}
+
+.womenimg {
+    position: relative;
+}
+
+.womenset {
+    position: absolute;
+    top: 0;
+    background-image: url("./../public/Background/backgroundhome/womenW1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg1Womentextsetdiv {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: var(--white-color);
+
+}
+.bg1Womentextsetdiv h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg1Womentextsetdiv h1 {
+    font-family: cursive;
+}
+
+.menimg {
+    position: relative;
+}
+
+.menset {
+    position: absolute;
+    top: 0;
+    background-image: url("./../public/Background/backgroundhome/menM1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg1mentextsetdiv {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color:var(--white-color);
+
+}
+.bg1mentextsetdiv h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.bg1mentextsetdiv h1 {
+    font-family: cursive;
+}
+
+
+/* // --------------------------------------------------------------------  RESPONSIVE */
+@media only screen and (max-width: 575.98px) {
+    .carousel-indicators1 [data-bs-target] {
+        width: 30px;
+        height: 30px;
+    }
+
+    .bg1Kidstextsetdiv {
+        top: 35%;
+        left: 50%;
+
+    }
+    .bg1Kidstextsetdiv h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .bg1Kidstextsetdiv h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .womenset {
+        /* @include widthheight(180px,100%); */
+        width: 180px;
+        height: 100%;
+    }
+
+    .bg1Womentextsetdiv {
+        top: 45%;
+        left: 65%;
+
+    }
+    .bg1Womentextsetdiv h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .bg1Womentextsetdiv h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .menset {
+        width: 200px;
+        height: 100%;
+        right: 0;
+
+
+    }
+
+    .bg1mentextsetdiv {
+        top: 45%;
+        left: 35%;
+
+    }
+    .bg1mentextsetdiv h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .bg1mentextsetdiv h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+@media only screen and (min-width: 575.98px) {
+    .carousel-indicators1 [data-bs-target] {
+        width: 30px;
+        height: 30px;
+    }
+
+    .bg1Kidstextsetdiv {
+        top: 35%;
+        left: 50%;
+
+    }
+    .bg1Kidstextsetdiv h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .bg1Kidstextsetdiv h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .womenset {
+        /* @include widthheight(180px,100%); */
+        width: 180px;
+        height: 100%;
+    }
+
+    .bg1Womentextsetdiv {
+        top: 45%;
+        left: 65%;
+
+    }
+    .bg1Womentextsetdiv h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .bg1Womentextsetdiv h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    .menset {
+        width: 200px;
+        height: 100%;
+        right: 0;
+
+
+    }
+
+    .bg1mentextsetdiv {
+        top: 45%;
+        left: 35%;
+
+    }
+    .bg1mentextsetdiv h2 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .bg1mentextsetdiv h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 767.98px) {
+    .carousel-indicators1 [data-bs-target] {
+        width: 60px;
+        height: 60px;
+    }
+
+    .bg1Kidstextsetdiv {
+        top: 45%;
+        left: 50%;
+
+    }
+
+    .bg1Kidstextsetdiv h2 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .bg1Kidstextsetdiv h1 {
+        font-size: 70px;
+        font-weight: 500;
+    }
+
+    .womenset {
+        width: 350px;
+        height: 100%;
+    }
+
+    .bg1Womentextsetdiv {
+        top: 45%;
+        left: 65%;
+
+    }
+
+    .bg1Womentextsetdiv h2 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .bg1Womentextsetdiv h1 {
+        font-size: 70px;
+        font-weight: 500;
+    }
+
+    .menset {
+        width: 350px;
+        height: 100%;
+        right: 0%;
+    }
+
+    .bg1mentextsetdiv {
+        top: 45%;
+        left: 35%;
+
+    }
+
+    .bg1mentextsetdiv h2 {
+        font-size: 40px;
+        font-weight: 500;
+    }
+
+    .bg1mentextsetdiv h1 {
+        font-size: 70px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 991.98px) {
+
+
+    .bg1Kidstextsetdiv {
+        top: 45%;
+        left: 50%;
+
+    }
+
+    .bg1Kidstextsetdiv h2 {
+        font-size: 60px;
+        font-weight: 500;
+    }
+
+    .bg1Kidstextsetdiv h1 {
+        font-size: 90px;
+        font-weight: 500;
+    }
+
+    .womenset {
+        width: 500px;
+        height: 100%;
+    }
+
+    .bg1Womentextsetdiv {
+        top: 45%;
+        left: 65%;
+
+    }
+
+    .bg1Womentextsetdiv h2 {
+        font-size: 60px;
+        font-weight: 500;
+    }
+
+    .bg1Womentextsetdiv h1 {
+        font-size: 90px;
+        font-weight: 500;
+    }
+
+    .menset {
+        width: 500px;
+        height: 100%;
+        right: 0;
+    }
+
+    .bg1mentextsetdiv {
+        top: 45%;
+        left: 35%;
+    }
+
+    .bg1mentextsetdiv h2 {
+        font-size: 60px;
+        font-weight: 500;
+    }
+
+    .bg1mentextsetdiv h1 {
+        font-size: 90px;
+        font-weight: 500;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    .menset {
+        width: 570px;
+        height: 100%;
+        right: 5%;
+    }
+}

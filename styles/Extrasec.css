@@ -1,0 +1,592 @@
+/*  1 || Catergory*/
+.extrasec1maindiv .extrasec1subdiv1 {
+    background-color: rgba(128, 128, 128, 0.224);
+
+}
+
+.extrasec1maindiv .extrasec1subdiv1 .nav-link h4 {
+    color: black;
+    transition: all 0.5s ease-in-out;
+    border-left: 6px solid transparent;
+
+}
+
+/* .extrasec1maindiv .extrasec1subdiv1 .nav-link:focus {
+    background-color: white;
+    border-left: 6px solid var(--data-colorlogo);
+    color: var(--data-colorlogo);
+}
+
+.extrasec1maindiv .extrasec1subdiv1 .nav-link:first-child {
+    background-color: white;
+    border-left: 6px solid var(--data-colorlogo);
+    color: var(--data-colorlogo);
+
+} */
+
+
+.parent .active,
+.parent :first-child:active {
+  background-color: white;
+  border-left: 6px solid var(--data-colorlogo);
+  color: var(--data-colorlogo);
+}
+
+.parent .active:not(:first-child) {
+  background-color: white;
+  border-left: 6px solid var(--data-colorlogo);
+  color: var(--data-colorlogo);
+}
+
+/*  2 ||| Topdeals*/
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: none !important;
+    background-color: transparent !important;
+}
+
+.dealparent .nav-link .extrasec2h6,
+.dealparent .nav-link .extrasec2h7 {
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.dealparent .nav-link .extrasec2h6:hover,
+.dealparent .nav-link .extrasec2h7:hover {
+    background-color: gray;
+    color: white;
+}
+
+.dealparent .nav-link .active,
+.dealparent .nav-link :first-child:active {
+    background-color: gray;
+    color: white;
+}
+
+.dealparent .nav-link .active:not(:first-child) {
+    background-color: gray;
+    color: white;
+}
+
+.extrasec2imgset {
+    position: relative;
+
+}
+
+.extrasec2imgset .extrasec2textdiv {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.773);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+.extrasec2imgset .extrasec2textdiv2 {
+    position: absolute;
+    bottom: 0;
+    background-color: var(--data-colorlogo);
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+
+}
+
+/* // {{{{{{{{{{{{{slider    || Brandlogo    }}}}}}}}}}}}} */
+
+.slick-slider .slick-list,
+.slick-slider .slick-track {
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-slide {
+    float: left;
+    width: auto;
+}
+
+
+.slidermaindiv {
+    position: relative;
+    height: 200px;
+
+}
+.slidermaindiv button:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
+    cursor: pointer;
+    display: none !important;
+}
+
+.slidermaindiv .slidersubdiv {
+    width: 100% !important;
+    height: 200px;
+    display: flex !important;
+    position: relative;
+
+}
+
+.slidermaindiv .slidersubdiv .slidersubdiv1 {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.109);
+
+
+}
+
+.slidermaindiv .slidersubdiv .slidersubdiv1 div {
+    height: 100%;
+    filter: grayscale(100%);
+    width: 100%;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+
+}
+
+.slidermaindiv .slidersubdiv .slidersubdiv1 div img {
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    opacity: 0.5;
+
+}
+
+.slidermaindiv .slidersubdiv .slidersubdiv1 div img:hover {
+    transform: scale(1.2);
+}
+
+/* .slidermaindiv .slidersubdiv .slidersubdiv1 div h1 {
+    position: absolute;
+    top: 0;
+} */
+
+.slidermaindiv .slidersubdiv .slidersubdiv1:hover img {
+    filter: grayscale(0%);
+    opacity: 1;
+}
+
+/* // -------------------------------------------------------------------- RESPONSIVE */
+
+@media only screen and (max-width: 345.98px) {
+
+    /* .extrasec1maindiv .extrasec1subdiv1 {
+        padding: 0px 0px 0px 12px !important;
+
+    } */
+
+    .extrasec1maindiv .extrasec1subdiv1 .nav-link h4 {
+        padding: 15px !important;
+        font-size: 20px;
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 {
+        padding: 10px !important;
+
+
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 .extrasec1imgset {
+        height: 190px !important;
+        width: 190px !important;
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 h5 {
+        font-size: 23px;
+    }
+
+  
+    .nav-link .extrasec2h6,
+    .nav-link .extrasec2h7 {
+        font-size: 15px;
+        width: 80px !important;
+        height: 40px;
+    }
+
+    .nav-link .extrasec2h7 {
+        width: 165px !important;
+    }
+
+
+    .extrasec2imgset {
+        height: 220px !important;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv {
+        height: 30%;
+        width: 100%;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv .extrasec2textdivh1 {
+        font-size: 17px !important;
+    }
+
+    .extrasec2imgset .extrasec2textdiv2 {
+        height: 30%;
+        width: 100%;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv2 .extrasec2textdiv2h1 {
+        font-size: 17px !important;
+    }
+}
+
+@media only screen and ((min-width: 350px) and (max-width: 380px)) {
+
+    /* .extrasec1maindiv .extrasec1subdiv1 {
+        padding: 0px 0px 0px 12px !important;
+
+    } */
+
+    .extrasec1maindiv .extrasec1subdiv1 .nav-link h4 {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 {
+        padding: 10px !important;
+
+
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 .extrasec1imgset {
+        height: 220px !important;
+        width: 220px !important;
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 h5 {
+        font-size: 23px;
+    }
+
+ 
+    .nav-link .extrasec2h6,
+    .nav-link .extrasec2h7 {
+        font-size: 15px;
+        width: 90px;
+        height: 40px;
+    }
+
+    .nav-link .extrasec2h7 {
+        width: 190px !important;
+    }
+
+    .extrasec2imgset {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+/* 
+    .extrasec1maindiv .extrasec1subdiv1 {
+        padding: 0px 0px 0px 12px !important;
+
+    } */
+
+
+    .extrasec1maindiv .extrasec1subdiv1 .nav-link h4 {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 {
+        padding: 10px ;
+
+
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 .extrasec1imgset {
+        height: 250px;
+        width: 250px;
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 h5 {
+        font-size: 23px;
+    }
+
+    .nav-link .extrasec2h6,
+    .nav-link .extrasec2h7 {
+        font-size: 15px;
+        width: 90px;
+        height: 40px;
+    }
+
+    .nav-link .extrasec2h7 {
+        width: 200px;
+    }
+
+    .extrasec2imgset {
+        height: 300px;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv {
+        height: 30%;
+        width: 100%;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv .extrasec2textdivh1 {
+        font-size: 20px;
+    }
+
+    .extrasec2imgset .extrasec2textdiv2 {
+        height: 30%;
+        width: 100%;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv2 .extrasec2textdiv2h1 {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 575.98px) {
+/* 
+    .extrasec1maindiv .extrasec1subdiv1 {
+        padding: 0px 0px 0px 12px !important;
+
+    } */
+
+
+    .extrasec1maindiv .extrasec1subdiv1 .nav-link h4 {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 {
+        padding: 10px ;
+
+
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 .extrasec1imgset {
+        height: 250px;
+        width: 250px;
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 h5 {
+        font-size: 23px;
+    }
+
+    .nav-link .extrasec2h6,
+    .nav-link .extrasec2h7 {
+        font-size: 15px;
+        width: 90px;
+        height: 40px;
+    }
+
+    .nav-link .extrasec2h7 {
+        width: 200px;
+    }
+
+    .extrasec2imgset {
+        height: 300px;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv {
+        height: 30%;
+        width: 100%;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv .extrasec2textdivh1 {
+        font-size: 20px;
+    }
+
+    .extrasec2imgset .extrasec2textdiv2 {
+        height: 30%;
+        width: 100%;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv2 .extrasec2textdiv2h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 767.98px) {
+
+    /* .extrasec1maindiv .extrasec1subdiv1 {
+        padding: 0px;
+
+    } */
+
+
+    .extrasec1maindiv .extrasec1subdiv1 .nav-link h4 {
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 {
+        padding: 10px;
+
+
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 .extrasec1imgset {
+        height: 250px;
+        width: 250px;
+    }
+
+    .extrasec1maindiv .extrasec1subdiv2 h5 {
+        font-size: 23px;
+    }
+
+    .nav-link .extrasec2h6,
+    .nav-link .extrasec2h7 {
+        font-size: 17px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .nav-link .extrasec2h7 {
+        width: 165px;
+    }
+
+    .extrasec2imgset {
+        height: 400px;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv {
+        height: 30%;
+        width: 100%;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv .extrasec2textdivh1 {
+        font-size: 35px;
+    }
+
+    .extrasec2imgset .extrasec2textdiv2 {
+        height: 30%;
+        width: 100%;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv2 .extrasec2textdiv2h1 {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (min-width: 991.98px) {
+
+    .nav-link .extrasec2h6,
+    .nav-link .extrasec2h7 {
+        font-size: 17px;
+        width: 75px;
+        height: 40px;
+    }
+
+    .nav-link .extrasec2h7 {
+        width: 150px;
+    }
+
+    .extrasec2imgset {
+        height: 400px;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv {
+        height: 30%;
+        width: 100%;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv .extrasec2textdivh1 {
+        font-size: 40px;
+    }
+
+    .extrasec2imgset .extrasec2textdiv2 {
+        height: 30%;
+        width: 100%;
+
+    }
+    .extrasec1maindiv .extrasec1subdiv2 .extrasec1imgset {
+        height: 250px;
+        width: 250px;
+    }
+
+    .extrasec2imgset .extrasec2textdiv .extrasec2textdivh1 {
+        font-size: 40px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .nav-link .extrasec2h6,
+    .nav-link .extrasec2h7 {
+        font-size: 17px;
+        width: 100px;
+        height: 40px;
+    }
+
+    .nav-link .extrasec2h7 {
+        width: 210px;
+    }
+
+
+    .extrasec2imgset {
+        height: 500px;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv {
+        height: 30%;
+        width: 100%;
+
+    }
+
+    .extrasec2imgset .extrasec2textdiv .extrasec2textdivh1 {
+        font-size: 40px;
+    }
+
+    .extrasec2imgset .extrasec2textdiv2 {
+        height: 30%;
+        width: 100%;
+
+    }
+    .extrasec1maindiv .extrasec1subdiv2 .extrasec1imgset {
+        height: 250px;
+        width: 230px;
+    }
+
+    .extrasec2imgset .extrasec2textdiv2 .extrasec2textdiv2h1 {
+        font-size: 40px;
+    }
+
+    .extrasec2subdiv {
+        width: 100%;
+    }
+}

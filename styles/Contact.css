@@ -1,0 +1,97 @@
+
+
+/* // 1 */
+/* .contact1maindiv {
+    // height: 500px;
+} */
+.contact1maindiv .contact1subdiv1 {
+    position: relative;
+
+}
+.contact1maindiv .contact1subdiv1 h2 {
+    position: absolute;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--textdark-color);
+}
+
+
+/* contactpage */
+.contactpage .contactstarth2 {
+    color: var(--textdark-color);
+    position: relative;
+}
+
+.contactpage .contactstarth2::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: rgba(var(--rgbtextdark-color), 0.54);
+}
+.contactpage .contactbtn{
+    background-color: var(--data-colorlogo);
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid var(--data-colorlogo);
+    transition: all 0.5s ease-in-out;
+}
+.contactpage .contactbtn:hover{
+    border: 2px solid var(--data-colorlogo);
+    color: var(--data-colorlogo);
+    background-color: var(--white-color);
+}
+.contactpage .contacticon{
+    font-size: 20px;
+    color: var(--data-colorlogo);
+}
+.contactpage .contacth6{
+    font-size: 18px;
+    color: var(--textdark-color);
+}
+.contactpage .contacth4{
+    color: var(--textdark-color);
+}
+.contactpage .contactp{
+    color: var(--textlight-color);
+}
+.contactpage .contacth1{
+    color: var(--textdark-color);
+}
+
+
+/* // -------------------------------------------------------------------- RESPONSIVE */
+
+@media only screen and (max-width: 345.98px) {}
+
+@media only screen and ((min-width: 350px) and (max-width: 380px)) {}
+
+@media only screen and (max-width: 575.98px) {}
+
+@media only screen and (min-width: 767.98px) {}
+
+@media only screen and (min-width: 991.98px) {
+    .contact1maindiv {
+        height: 500px;
+    }
+    /* .contact1maindiv .contact1subdiv1 {
+    }  */
+    .contact1maindiv .contact1subdiv1 h2 {
+        top: 5%;
+        right: -67%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    /* .contact1maindiv {   
+    }
+    .contact1maindiv .contact1subdiv1 {
+    } */
+    .contact1maindiv .contact1subdiv1 h2 {
+        top: 6%;
+        right: -52%;
+    }
+}

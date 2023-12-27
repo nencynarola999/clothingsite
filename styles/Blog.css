@@ -1,0 +1,229 @@
+.blogpage .blogpagelink {
+    padding: 10px 20px;
+    border: 2px solid var(--data-colorlogo);
+    color: var(--data-colorlogo);
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.blogpage .blogpagelink:hover {
+    background-color: var(--data-colorlogo);
+    color: var(--white-color);
+
+}
+
+.blogpage .nav-link .active,
+.blogpage .nav-link :first-child:active {
+    background-color: var(--data-colorlogo);
+    color: white;
+}
+
+.blogpage .nav-link .active:not(:first-child) {
+    background-color: var(--data-colorlogo);
+    color: white;
+}
+
+.blogextraimgset {
+    height: 350px;
+    width: 100%;
+    /* border-radius: 6px 0px 0px 6px; */
+}
+
+.blogextratextset {
+    /* border-width: 1px 1px 1px 0px; */
+    border-color: rgba(128, 128, 128, 0.209);
+    /* border-radius: 0px 6px 6px 0px; */
+    border-style: solid;
+    padding: 15px 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blogextratextset h6 {
+    color: var(--textlight-color);
+}
+
+.blogextratextset h1 {
+    color: var(--textdark-color);
+}
+
+.blogextratextset p {
+    color: var(--textlight-color);
+}
+
+.blogextratextset a {
+    color: var(--data-colorlogo);
+    border: 3px solid var(--data-colorlogo);
+    background-color: var(--white-color);
+    padding: 6px 17px;
+    font-size: 18px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.blogextratextset a:hover {
+    border: 3px solid var(--data-colorlogo);
+    color: var(--white-color);
+    background-color: var(--data-colorlogo);
+}
+
+.blogpageallobjectdiv {
+    border: 1px solid rgba(128, 128, 128, 0.209);
+    background-color: white;
+    border-radius: 6px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.blogpageallobjectdiv:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.blogpageallobjectdiv img {
+    border-radius: 6px 6px 0px 0px;
+}
+
+.blogpageallobjectdiv .blogpageallobjecttextdiv {
+    padding: 30px 20px;
+}
+
+.blogpageallobjectdiv .blogpageallobjecttextdiv h5 {
+    color: var(--textlight-color);
+    font-size: 17px;
+}
+
+.blogpageallobjectdiv .blogpageallobjecttextdiv h4 {
+    color: var(--textdark-color);
+
+}
+
+.blogpageallobjectdiv .blogpageallobjecttextdiv a {
+    border: 3px solid var(--data-colorlogo);
+    color: var(--white-color);
+    background-color: var(--data-colorlogo);
+    padding: 6px 16px;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out;
+
+
+}
+
+.blogpageallobjectdiv .blogpageallobjecttextdiv a:hover {
+    border: 3px solid var(--data-colorlogo);
+    color: var(--data-colorlogo);
+    background-color: var(--white-color);
+}
+
+
+
+.blogbutton {
+    border: 3px solid var(--data-colorlogo);
+    color: var(--data-colorlogo);
+    background-color: var(--white-color);
+    padding: 10px 20px;
+    transition: all 0.5s ease-in-out;
+    font-size: 18px;
+}
+
+.blogbutton:hover {
+    border: 3px solid var(--data-colorlogo);
+    color: var(--white-color);
+    background-color: var(--data-colorlogo);
+}
+
+.blogsecondtextsectextset {
+    position: relative;
+}
+
+.blogsecondtextsectextset::after {
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--data-colorlogo);
+}
+
+.blogsecondtextsectextset h1 {
+    color: var(--textdark-color);
+    /* font-size: 32px; */
+}
+
+.blogsecondtextsectextset h4 {
+    color: var(--data-colorlogo);
+    font-family: cursive;
+    font-size: 16px;
+}
+
+.blogsecondtextcolorset h2 {
+    color: var(--textdark-color);
+    /* font-size: 28px; */
+}
+
+.blogsecondtextcolorset p {
+    color: var(--textlight-color);
+}
+
+/* // -------------------------------------------------------------------- RESPONSIVE */
+
+@media only screen and (max-width: 345.98px) {}
+
+@media only screen and ((min-width: 350px) and (max-width: 380px)) {}
+
+@media only screen and (max-width: 575.98px) {
+    .blogsecondtextsectextset h1 {
+        font-size: 25px;
+    }
+
+    .blogsecondtextcolorset h2 {
+        font-size: 23px;
+    }
+
+    .blogextraimgset {
+        border-radius: 6px 6px 0px 0px;
+    }
+
+    .blogextratextset {
+        border-width: 0px 1px 1px 1px;
+        border-radius: 0px 0px 6px 6px ;
+    }
+    .blogextratextset h1 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 767.98px) {
+    .blogextraimgset {
+        border-radius: 6px 0px 0px 6px;
+    }
+
+    .blogextratextset {
+        border-width: 1px 1px 1px 0px;
+        border-radius: 0px 6px 6px 0px;
+    }
+
+    .blogextratextset h1 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 991.98px) {
+    .blogsecondtextsectextset h1 {
+        font-size: 32px;
+    }
+
+    .blogsecondtextcolorset h2 {
+        font-size: 28px;
+    }
+
+    .blogextratextset h1 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,723 @@
+ /* salethreeimagesec || sale1 */
+ .sale1borderimage {
+     outline: 6px solid rgba(var(--rgbwhite-color), 0.3);
+     outline-offset: -13px;
+ }
+
+ .sale1allset {
+     position: relative;
+ }
+
+ .sale1allsubimage {
+     background-image: url("./../public/Sale/sale1/blackcircle3.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: var(--white-color);
+     flex-direction: column;
+ }
+
+ .sale1allsub2image {
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: var(--white-color);
+     flex-direction: column;
+     top: 0;
+     right: 0px;
+     width: 250px;
+     height: 250px;
+
+ }
+
+ .sale1allsub2image p {
+     position: relative;
+     font-family: cursive;
+
+ }
+
+ .sale1allsub2image p::after {
+     content: "";
+     position: absolute;
+     top: 50%;
+     left: -60%;
+     background-color: var(--white-color);
+     width: 50%;
+     height: 2px;
+ }
+
+ .sale1allsub2image p::before {
+     content: "";
+     position: absolute;
+     top: 50%;
+     left: -60%;
+     background-color: var(--white-color);
+     width: 50%;
+     height: 2px;
+ }
+
+ .sale1allsub3image {
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: var(--white-color);
+     flex-direction: column;
+     top: -60px;
+     left: 50px;
+     width: 250px;
+     height: 250px;
+
+ }
+
+ .sale1allsub3image p {
+     position: relative;
+     font-family: cursive;
+ }
+
+ /* Salefourimg || sale2 */
+ .carousel-indicators2 [data-bs-target] {
+     box-sizing: content-box;
+     flex: 0 1 auto;
+     /* @include widthheight(0px, 0px); */
+     width: 0px;
+     height: 0px;
+     padding: 0;
+     margin-right: 5px;
+     margin-left: 5px;
+     text-indent: -999px;
+     cursor: pointer;
+     background-color: none;
+     background-clip: padding-box;
+     border: 0;
+     border-top: 10px solid transparent;
+     border-bottom: 10px solid transparent;
+     opacity: 0.7;
+     transition: opacity .6s ease;
+     border-radius: 50%;
+     position: relative;
+ }
+
+ .sale2imageset {
+     background-image: url("./../public/Sale/sale2/bg_green.avif");
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     border-radius: 20px;
+
+ }
+
+ .sale2imageset .sale2subimagetextset {
+     position: absolute;
+     bottom: 0;
+     left: 10px;
+     width: 140px;
+     height: 150px;
+     /* @include bottomleft(0,10px); */
+     /* @include widthheight(140px,150px); */
+     font-family: 'Times New Roman', Times, serif;
+     color: var(--white-color);
+
+ }
+
+ .sale2imageset .sale2subimagetextset h2 {
+     font-size: 40px;
+ }
+
+ .salepurse {
+     background-image: url("./../public/Sale/sale2/shoes1.webp");
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 20px;
+     transition: all 0.5s ease-in-out;
+     cursor: pointer;
+
+ }
+
+ .salepurse:hover {
+     background-image: url("./../public/Sale/sale2/Purse2.avif");
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .sale2h3 {
+     position: relative;
+     margin-bottom: 30px;
+
+ }
+
+ .sale2h3::before {
+     content: "";
+     position: absolute;
+     top: 110%;
+     width: 4%;
+     height: 4px;
+     background-color: var(--data-colorlogo);
+ }
+
+ /* salesuper || sale3 */
+ .sale3maindiv {
+     background-image: url("./../public/Sale/sale2/bg_img.jpg");
+     background-size: contain;
+     position: relative;
+ }
+
+ .sale3maindiv .sale3maindiv2 {
+     background-color: #b7b1d2ef;
+     color: var(--white-color);
+     position: absolute;
+     left: 13px;
+     outline: 3px solid white;
+
+ }
+
+ .sale3maindiv .sale3maindiv2 .sale3sub1div {
+     position: relative;
+
+ }
+
+ .sale3maindiv .sale3maindiv2 .sale3sub1div .yellowshirt {
+     position: absolute;
+     background-image: url("./../public/Sale/sale2/yellowtshirt.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+
+ .sale3maindiv .sale3maindiv2 .sale3sub1div .blackbag1 {
+     position: absolute;
+     background-image: url("./../public/Sale/sale2/blackbag1.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+
+ .sale3maindiv .sale3maindiv2 .sale3sub1div .redbag1 {
+     position: absolute;
+     background-image: url("./../public/Sale/sale2/redbag1.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+
+ .sale3maindiv .sale3maindiv2 .sale3sub1div .cloth {
+     position: absolute;
+     background-image: url("./../public/Sale/sale2/cloth.png");
+     background-repeat: no-repeat;
+     background-size: contain;
+ }
+
+ .sale3maindiv .sale3maindiv2 .sale3sub1div .saletext {
+     position: absolute;
+ }
+
+ .sale3maindiv .sale3maindiv2 .sale3sub2div {
+     display: flex;
+     background-color: #fcc729;
+
+
+ }
+
+ .sale3maindiv .sale3maindiv2 .sale3sub2div div {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+ }
+
+ .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divoff {
+     background-color: rgb(248, 18, 133);
+ }
+
+ .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsale {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ /* // --------------------------------------------------------------------  RESPONSIVE */
+
+ @media only screen and (max-width: 345.98px) {
+     .sale3maindiv {
+         height: 300px;
+
+     }
+
+     .sale3maindiv .sale3maindiv2 {
+         height: 100%;
+         outline-offset: -20px;
+
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div {
+         width: 35%;
+         height: 100%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .yellowshirt {
+         top: 0;
+         left: 20%;
+         width: 100%;
+         height: 80%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .blackbag1 {
+         bottom: -64px !important;
+         left: 7%;
+         width: 50%;
+         height: 50%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .redbag1 {
+         bottom: -48px !important;
+         left: 70%;
+         width: 50%;
+         height: 40%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .cloth {
+         bottom: -63px !important;
+         left: 40%;
+         width: 50%;
+         height: 40%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .saletext {
+         font-size: 20px !important;
+         top: 20% !important;
+         left: 50% !important;
+         width: 100%;
+         height: 40%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div {
+         width: 65%;
+         height: 100%;
+         padding: 0px 10px !important;
+         border-radius: 140px 0px 0px 140px;
+
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsuper {
+         font-size: 25px !important;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divoff {
+         font-size: 18px;
+         width: 55px !important;
+         height: 85px;
+         padding: 2px;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsale {
+         padding: 0;
+         font-size: 45px !important;
+     }
+ }
+
+ 
+
+ @media only screen and (min-width: 575.98px) {
+    .sale1allsubimage {
+        top: 0px;
+        /* left: -40px; */
+        width: 250px;
+        height: 250px;
+    }
+
+    .sale3maindiv {
+        height: 300px;
+
+    }
+
+    .sale3maindiv .sale3maindiv2 {
+        height: 100%;
+        outline-offset: -20px;
+
+    }
+
+    .sale3maindiv .sale3maindiv2 .sale3sub1div {
+        width: 35%;
+        height: 100%;
+    }
+
+    .sale3maindiv .sale3maindiv2 .sale3sub1div .yellowshirt {
+        top: 0;
+        left: 20%;
+        width: 100%;
+        height: 80%;
+    }
+
+    .sale3maindiv .sale3maindiv2 .sale3sub1div .blackbag1 {
+        bottom: -42px;
+        left: 7%;
+        width: 50%;
+        height: 50%;
+    }
+
+    .sale3maindiv .sale3maindiv2 .sale3sub1div .redbag1 {
+        bottom: -30px;
+        left: 70%;
+        width: 50%;
+        height: 40%;
+    }
+
+    .sale3maindiv .sale3maindiv2 .sale3sub1div .cloth {
+        bottom: -50px;
+        left: 40%;
+        width: 50%;
+        height: 40%;
+    }
+
+    .sale3maindiv .sale3maindiv2 .sale3sub1div .saletext {
+        top: 25%;
+        left: 52%;
+        width: 100%;
+        height: 40%;
+        font-size: 22px;
+    }
+
+    .sale3maindiv .sale3maindiv2 .sale3sub2div {
+        width: 65%;
+        height: 100%;
+
+        padding: 0px 15px !important;
+
+
+        border-radius: 140px 0px 0px 140px;
+
+
+    }
+
+    .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsuper {
+        font-size: 35px;
+
+    }
+
+    .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divoff {
+        font-size: 20px;
+        width: 75px;
+        height: 88px;
+        padding: 2px;
+    }
+    .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsale {
+        padding: 0;
+        font-size: 45px;
+    }
+}
+
+ @media only screen and (max-width: 575.98px) {
+     .sale1allsubimage {
+         top: 0px;
+         /* left: -40px; */
+         width: 250px;
+         height: 250px;
+     }
+
+     .sale3maindiv {
+         height: 300px;
+
+     }
+
+     .sale3maindiv .sale3maindiv2 {
+         height: 100%;
+         outline-offset: -20px;
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div {
+         width: 35%;
+         height: 100%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .yellowshirt {
+         top: 0;
+         left: 20%;
+         width: 100%;
+         height: 80%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .blackbag1 {
+         bottom: -42px;
+         left: 7%;
+         width: 50%;
+         height: 50%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .redbag1 {
+         bottom: -30px;
+         left: 70%;
+         width: 50%;
+         height: 40%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .cloth {
+         bottom: -50px;
+         left: 40%;
+         width: 50%;
+         height: 40%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .saletext {
+         top: 25%;
+         left: 52%;
+         width: 100%;
+         height: 40%;
+         font-size: 22px;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div {
+         width: 65%;
+         height: 100%;
+
+         padding: 0px 15px !important;
+
+
+         border-radius: 140px 0px 0px 140px;
+
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsuper {
+         font-size: 35px;
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divoff {
+         font-size: 20px;
+         width: 75px;
+         height: 88px;
+         padding: 2px;
+     }
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsale {
+         padding: 0;
+         font-size: 45px;
+     }
+ }
+
+ @media only screen and (min-width: 767.98px) {
+     .sale1allsubimage {
+         top: 0px;
+         /* left: -40px; */
+         width: 250px;
+         height: 250px;
+     }
+
+     .sale3maindiv {
+         height: 300px;
+     }
+
+     .sale3maindiv .sale3maindiv2 {
+         height: 100%;
+         outline-offset: -20px;
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div {
+         width: 40%;
+         height: 100%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .yellowshirt {
+         top: 0px;
+         left: 35%;
+         width: 50%;
+         height: 100%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .blackbag1 {
+         bottom: -127px;
+         left: 8%;
+         width: 40%;
+         height: 94%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .redbag1 {
+         bottom: -152px;
+         left: 70%;
+         width: 40%;
+         height: 94%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .cloth {
+         bottom: -180px;
+         left: 40%;
+         width: 40%;
+         height: 94%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .saletext {
+         top: 29%;
+         left: 52%;
+         width: 100%;
+         height: 40%;
+         font-size: 18px;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div {
+         width: 60%;
+         height: 100%;
+         border-radius: 140px 0px 0px 140px;
+
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsuper {
+         font-size: 50px;
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divoff {
+         font-size: 18px;
+         width: 180px;
+         height: 50px;
+         padding: 0px 0px 0px 19px;
+         clip-path: polygon(0 13%, 100% 7%, 91% 57%, 101% 102%, 0 102%, 10% 61%);
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsale {
+         padding: 0;
+         font-size: 90px;
+     }
+ }
+
+ @media only screen and (min-width: 991.98px) {
+     .sale1allsubimage {
+         top: 0px;
+         /* left: -40px; */
+         width: 250px;
+         height: 250px;
+     }
+
+     .sale3maindiv {
+         height: 400px;
+
+     }
+
+     .sale3maindiv .sale3maindiv2 {
+         height: 100%;
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div {
+         width: 40%;
+         height: 100%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .yellowshirt {
+         top: 0;
+         left: 35%;
+         width: 100%;
+         height: 50%;
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .blackbag1 {
+         bottom: -17px;
+         left: 5%;
+         width: 100%;
+         height: 50%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .redbag1 {
+         bottom: 10px;
+         left: 70%;
+         width: 100%;
+         height: 40%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .cloth {
+         bottom: 0px;
+         left: 35%;
+         width: 100%;
+         height: 40%;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .saletext {
+         top: 30%;
+         left: 53%;
+         width: 100%;
+         height: 40%;
+         font-size: 32px;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div {
+         border-radius: 180px 0px 0px 180px;
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsuper {
+         font-size: 60px;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divoff {
+         width: 200px;
+         height: 50px;
+         font-size: 20px;
+         padding: 0px 0px 0px 20px;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsale {
+         padding: 0;
+         font-size: 130px;
+     }
+ }
+
+ @media only screen and (min-width: 1200px) {
+     .sale1allsubimage {
+         top: 0;
+         /* left: -40px; */
+         width: 300px;
+         height: 300px;
+     }
+
+     .sale3maindiv2 {
+         height: 100%;
+     }
+
+     .sale3maindiv2 .sale3sub1div {
+         width: 40%;
+         height: 100%;
+     }
+
+     .sale3maindiv2 .sale3sub1div .yellowshirt {
+         top: 0;
+         left: 35%;
+         width: 100%;
+         height: 50%;
+
+     }
+
+     .sale3maindiv2 .sale3sub1div .blackbag1 {
+         bottom: -17px;
+         left: 13% !important;
+         width: 100%;
+         height: 50%;
+     }
+
+     .sale3maindiv2 .sale3sub1div .redbag1 {
+         bottom: 10px;
+         left: 63% !important;
+         width: 100%;
+         height: 40%;
+     }
+
+     .sale3maindiv2 .sale3sub1div .cloth {
+         bottom: 0px;
+         left: 35%;
+         width: 100%;
+         height: 40%;
+     }
+
+     .sale3maindiv2 .sale3sub1div .saletext {
+         top: 28% !important;
+         left: 48% !important;
+         width: 100%;
+         height: 40%;
+     }
+ }

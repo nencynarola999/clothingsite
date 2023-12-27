@@ -1,0 +1,1185 @@
+/* 2 || Menfourhoverimage */
+
+.homemensec2imagehoverset {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.homemensec2imagehoverset div {
+    position: absolute;
+    height: 0%;
+    width: 0%;
+    background-color: rgba(var(--rgbwhite-color), 0.854);
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homemensec2imagehoverset div h4 {
+    color: var(--data-colorlogo);
+    opacity: 0.8;
+}
+
+.homemensec2imagehoverset div h2 {
+    position: relative;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* // font-size: 30px; */
+    text-align: center;
+    color: var(--textdark-color);
+
+}
+
+.homemensec2imagehoverset div a {
+    color: var(--textlight-color);
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    font-weight: 500;
+
+}
+
+.homemensec2imagehoverset div a::after {
+    content: "";
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    width: 70%;
+    height: 2px;
+    background-color: var(--data-colorlogo);
+    transform: translate(-50%, -50%);
+}
+
+.homemensec2imagehoverset div h2::before {
+    content: "";
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    width: 20%;
+    height: 3px;
+    transform: translate(-50%, -50%);
+    background-color: var(--data-colorlogo);
+    opacity: 1;
+}
+
+.homemensec2imagehoverset div h3 {
+    text-align: center;
+    color: var(--textdark-color);
+}
+
+
+.homemensec2imagehoverset div h6 {
+    color: var(--textlight-color);
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.homemensec2imagehoverset div h6::after {
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0%;
+    width: 100%;
+    height: 2px;
+    background-color: var(--data-colorlogo);
+}
+
+.homemensec2imagehoverset:hover div {
+    height: 90%;
+    width: 90%;
+    opacity: 1;
+}
+
+.homemensec2imagehoverset {
+    /* border: 2px solid var(--data-colorlogo); */
+    /* // padding: 10px 20px; */
+    transition: all 0.5s ease-in-out;
+
+}
+
+.homemensec2imagehoverset:hover {
+    background-color: var(--data-colorlogo);
+    color: var(--white-color);
+}
+
+.homemensec2imagehoverset2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.homemensec2imagehoverset2 div {
+    position: absolute;
+    height: 0%;
+    width: 0%;
+    background-color: rgba(var(--rgbwhite-color), 0.854);
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homemensec2imagehoverset2 h5 {
+    position: absolute;
+    top: 30px;
+    font-size: 18px;
+    color: var(--textdark-color);
+}
+
+.homemensec2imagehoverset2 h4 {
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--data-colorlogo);
+}
+
+.homemensec2imagehoverset2 .homemensec2h6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: var(--black-color);
+    position: absolute;
+    bottom: 30px;
+    color: var(--data-colorlogo);
+}
+
+
+.homemensec2imagehoverset2:hover div {
+    height: 95%;
+    width: 90%;
+    opacity: 1;
+}
+
+/* // 3 || Menfourimgslider */
+
+/* .homemensec3maindiv {} */
+
+.homemensec3maindiv .homemensec3subdiv {
+    position: relative;
+
+}
+
+.homemensec3maindiv .homemensec3subdiv .homemensec3subdiv1 {
+    transition: all 0.5s ease-in-out;
+    height: 95%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 1;
+}
+
+.homemensec3maindiv .homemensec3subdiv .homemensec3subdiv1 div {
+    position: absolute;
+    bottom: 0;
+    height: 20%;
+    width: 100%;
+    background-color: rgba(var(--rgbblack-color), 0.472);
+    color: var(--white-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.homemensec3maindiv .homemensec3subdiv .homemensec3subdiv2 {
+    transition: all 0.5s ease-in-out;
+    height: 95%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+
+}
+
+.homemensec3maindiv .homemensec3subdiv .homemensec3subdiv2 div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    top: 0;
+    right: 0;
+    outline: 1px solid var(--white-color);
+    outline-offset: -5px;
+    border-radius: 50%;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    flex-direction: column;
+
+
+}
+
+.homemensec3maindiv .homemensec3subdiv:hover .homemensec3subdiv1 {
+    opacity: 0;
+}
+
+.homemensec3maindiv .homemensec3subdiv:hover .homemensec3subdiv2 {
+    opacity: 1;
+}
+
+/* menpage  */
+
+.menpage img {
+    position: relative;
+}
+
+.menpage .menpagetext {
+    position: absolute;
+    /* top: 15%;
+    right: 10%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 30%;
+    height: 60%; */
+    background-color: rgba(255, 255, 255, 0.695);
+    /* border-radius: 0px 90px 0px 90px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.menpage .menpagetext .imgsetdiv {
+    position: absolute;
+    bottom: 0;
+    background-image: url("./../public/Men/menpage/m1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* width: 100%;
+    height: 110%; */
+}
+
+.carousel-indicatorsmenpage [data-bs-target] {
+    background-clip: padding-box;
+    background-color: #ffffffa7;
+    border: 0;
+    border-bottom: 10px solid #0000;
+    border-top: 10px solid #0000;
+    box-sizing: initial;
+    cursor: pointer;
+    flex: 0 1 auto;
+    height: 3px;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    opacity: 1;
+    padding: 0;
+    text-indent: -999px;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicatorsmenpage [data-bs-target]:first-child {
+    background-image: url("./../public/Men/menpage/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    border: 1px solid rgba(128, 128, 128, 0.343);
+    margin-top: 10px;
+
+}
+
+.carousel-indicatorsmenpage [data-bs-target]:nth-child(2) {
+    background-image: url("./../public/Men/menpage/bg2.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.carousel-indicatorsmenpage [data-bs-target]:nth-child(3) {
+    background-image: url("./../public/Men/menpage/bg3.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.menpage .menpagefirstclass {
+    position: absolute;
+    /* top: 18%;
+    left: 5%; */
+    text-align: end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menpage .menpagefirstclass .smalltext {
+    color: white;
+    /* font-size: 60px; */
+}
+
+.menpage .menpagefirstclass .bigtext {
+    /* font-size: 100px; */
+    color: var(--data-colorlogo);
+}
+
+.menpage .menpagethirdclass {
+    position: absolute;
+    /* top: 30%;
+    right: 15%; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.menpage .menpagethirdclass .bigtext2 {
+    /* font-size: 80px; */
+    color: var(--data-colorlogo);
+}
+
+.menpage .menpagethirdclass .smalltext2 {
+    color: white;
+    /* font-size: 60px; */
+}
+
+.menpageblacksec {
+    background-color: black;
+    /* height: 600px; */
+}
+
+.menpageblacksec .menpageblacksech3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    /* font-size: 60px; */
+}
+
+.menpageblacksec .menpageblacksech3::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    background-color: rgba(239, 219, 219, 0.5);
+    /* width: 35%; */
+    left: 0%;
+    /* height: 7px; */
+}
+
+.menpageblacksec .menpageblacksech3::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    background-color: rgba(239, 219, 219, 0.5);
+    /* width: 35%; */
+    right: 0%;
+    /* height: 7px; */
+}
+
+.menpageblacksec .menpageblacksecp {
+    display: flex;
+    justify-content: center;
+    color: rgba(239, 219, 219, 0.5);
+    font-size: 19px;
+
+}
+
+.menpageblacksec .menicondivset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.menpageblacksec .menicondivset .menicon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    font-size: 37px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.menpageblacksec .menicondivset p {
+    text-align: center;
+    font-size: 16px;
+    color: rgba(var(--rgbwhite-color), 0.695);
+}
+
+.menpagesliderdiv {
+    background-image: url("./../public/Men/menpage/bgblack.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.menslidermaindiv {
+    position: relative;
+}
+
+.menslidermaindiv button:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled) {
+    cursor: pointer;
+    display: none !important;
+}
+
+.menslidermaindiv .menslidersubdiv {
+    width: 100% !important;
+    display: flex !important;
+    position: relative;
+
+}
+
+.menslidermaindiv .menslidersubdiv .menslidersubdiv1 {
+    height: 100%;
+    width: 100%;
+}
+
+.menslidermaindiv .menslidersubdiv .menslidersubdiv1 {
+    height: 100%;
+    width: 100%;
+}
+
+.menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h1 {
+    color: var(--textdark-color);
+}
+
+.menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h5 {
+    color: var(--textlight-color);
+}
+
+.menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h6 {
+    border: 2px solid var(--data-colorlogo);
+    transform: rotate(180deg) !important;
+    position: absolute;
+    display: none;
+
+}
+
+.menthreeimgdiv {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.menthreeimgdiv .menthreeimage {
+    width: 100%;
+    height: 500px;
+    cursor: pointer;
+}
+
+.menthreeimgdiv .menthreeimage img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.menthreeimgdiv .menthreeimage:hover:after {
+    width: 100%;
+    height: 100%;
+}
+
+.menthreeimgdiv .menthreeimage:hover::before {
+    width: 100%;
+    height: 100%;
+}
+
+.menthreeimgdiv .menthreeimage:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.178);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.menthreeimgdiv .menthreeimage::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    background-color: rgba(255, 255, 255, 0.178);
+    -webkit-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+
+.menthreeimgdiv .threefirstimgdivset {
+    outline: 3px solid rgba(255, 255, 255, 0.64);
+    outline-offset: -30px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+
+}
+
+.menthreeimgdiv .threelastimgdivset div {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 90%;
+}
+
+/* // -------------------------------------------------------------------- RESPONSIVE */
+
+@media only screen and (max-width: 345.98px) {
+
+    .homemensec2imagehoverset div h2 {
+        font-size: 18px !important;
+    }
+
+    .homemensec2imagehoverset a {
+        padding: 5px 15px !important;
+
+    }
+
+    .homemensec3maindiv .homemensec3subdiv {
+        width: 100%;
+        height: 190px !important;
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv1 div h4 {
+        font-size: 14px !important;
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv1 div p {
+        font-size: 11px !important;
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv2 div {
+        width: 50px !important;
+        height: 50px !important;
+
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv2 div p {
+        font-size: 9px !important;
+    }
+
+    .menpage .menpagetext {
+        top: 6% !important;
+        right: 2% !important;
+        width: 30% !important;
+        height: 60% !important;
+        border-radius: 0px 40px 0px 40px !important;
+
+    }
+
+    .menpage .menpagetext .imgsetdiv {
+        width: 100% !important;
+        height: 110% !important;
+    }
+
+    .menpage .menpagefirstclass {
+        top: 3% !important;
+        left: 2% !important;
+    }
+
+    .menpage .menpagefirstclass .smalltext {
+        font-size: 20px !important;
+    }
+
+    .menpage .menpagefirstclass .bigtext {
+        font-size: 27px !important;
+    }
+
+    .menpage .menpagethirdclass {
+        top: 30% !important;
+        right: 5% !important;
+    }
+
+    .menpage .menpagethirdclass .bigtext2 {
+        font-size: 25px !important;
+    }
+
+    .menpage .menpagethirdclass .smalltext2 {
+        font-size: 18px !important;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h1 {
+        font-size: 16px !important;
+        padding-left: 0px !important;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h5 {
+        font-size: 13px !important;
+        padding-left: 0px !important;
+    }
+}
+
+@media only screen and ((min-width: 350px) and (max-width: 380px)) {
+
+    .menpage .menpagetext {
+        top: 15% !important;
+        right: 2% !important;
+        width: 30% !important;
+        height: 60% !important;
+        border-radius: 0px 40px 0px 40px !important;
+    }
+
+    .menpage .menpagetext .imgsetdiv {
+        width: 100% !important;
+        height: 110% !important;
+    }
+
+    .menpage .menpagefirstclass {
+        top: 10% !important;
+        left: 2% !important;
+    }
+
+    .menpage .menpagefirstclass .smalltext {
+        font-size: 24px !important;
+    }
+
+    .menpage .menpagefirstclass .bigtext {
+        font-size: 33px !important;
+    }
+
+    .menpage .menpagethirdclass {
+        top: 30% !important;
+        right: 5% !important;
+    }
+
+    .menpage .menpagethirdclass .bigtext2 {
+        font-size: 35px !important;
+    }
+
+    .menpage .menpagethirdclass .smalltext2 {
+        font-size: 25px !important;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h1 {
+        font-size: 19px !important;
+        padding-left: 0px !important;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h5 {
+        font-size: 15px !important;
+        padding-left: 0px !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 575.98px) {
+
+    .homemensec2imagehoverset div h2 {
+        font-size: 22px;
+    }
+
+    .homemensec2imagehoverset a {
+        padding: 8px 15px;
+
+    }
+
+    .homemensec3maindiv .homemensec3subdiv {
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv1 div h4 {
+        font-size: 12px !important;
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv1 div p {
+        font-size: 10px !important;
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv2 div {
+        height: 60px;
+        width: 60px;
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv2 div p {
+        font-size: 11px;
+    }
+
+    .carousel-indicatorsmenpage [data-bs-target] {
+        width: 30px;
+        height: 30px;
+    }
+
+    .menpage .menpagetext {
+        top: 15%;
+        right: 2%;
+        width: 30%;
+        height: 60%;
+        border-radius: 0px 40px 0px 40px;
+    }
+
+    .menpage .menpagetext .imgsetdiv {
+        width: 100%;
+        height: 110%;
+    }
+
+    .menpage .menpagefirstclass {
+        top: 15%;
+        left: 2%;
+    }
+
+    .menpage .menpagefirstclass .smalltext {
+        font-size: 25px;
+    }
+
+    .menpage .menpagefirstclass .bigtext {
+        font-size: 37px;
+    }
+
+    .menpage .menpagethirdclass {
+        top: 30%;
+        right: 5%;
+    }
+
+    .menpage .menpagethirdclass .bigtext2 {
+        font-size: 40px;
+    }
+
+    .menpage .menpagethirdclass .smalltext2 {
+        font-size: 30px;
+    }
+
+    .menpageblacksec .menpageblacksech3 {
+        font-size: 25px;
+    }
+
+    .menpageblacksec .menpageblacksech3::after {
+        width: 31%;
+        height: 4px;
+    }
+
+    .menpageblacksec .menpageblacksech3::before {
+        width: 31%;
+        height: 4px;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h1 {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h5 {
+        font-size: 15px;
+        padding-left: 0px;
+    }
+
+}
+
+@media only screen and (min-width: 575.98px) {
+
+    .homemensec2imagehoverset div h2 {
+        font-size: 22px;
+    }
+
+    .homemensec2imagehoverset a {
+        padding: 8px 15px;
+
+    }
+
+    .homemensec3maindiv .homemensec3subdiv {
+        height: 200px;
+        width: 100%;
+
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv1 div h4 {
+        font-size: 19px;
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv1 div p {
+        font-size: 12px;
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv2 div {
+        height: 60px;
+        width: 60px;
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv2 div p {
+        font-size: 11px;
+    }
+
+    .carousel-indicatorsmenpage [data-bs-target] {
+        width: 30px;
+        height: 30px;
+    }
+
+    .menpage .menpagetext {
+        top: 15%;
+        right: 2%;
+        width: 30%;
+        height: 60%;
+        border-radius: 0px 40px 0px 40px;
+
+    }
+
+    .menpage .menpagetext .imgsetdiv {
+        width: 100%;
+        height: 110%;
+    }
+
+    .menpage .menpagefirstclass {
+        top: 18%;
+        left: 2%;
+    }
+
+    .menpage .menpagefirstclass .smalltext {
+        font-size: 25px;
+    }
+
+    .menpage .menpagefirstclass .bigtext {
+        font-size: 40px;
+    }
+
+    .menpage .menpagethirdclass {
+        top: 30%;
+        right: 5%;
+    }
+
+    .menpage .menpagethirdclass .bigtext2 {
+        font-size: 45px;
+    }
+
+    .menpage .menpagethirdclass .smalltext2 {
+        font-size: 35px;
+    }
+
+    .menpageblacksec .menpageblacksech3 {
+        font-size: 35px;
+    }
+
+    .menpageblacksec .menpageblacksech3::after {
+        width: 31%;
+        height: 5px;
+    }
+
+    .menpageblacksec .menpageblacksech3::before {
+        width: 31%;
+        height: 5px;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h1 {
+        font-size: 29px;
+        padding-left: 0px;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h5 {
+        font-size: 17px;
+        padding-left: 0px;
+    }
+
+
+}
+
+@media only screen and (min-width: 767.98px) {
+
+
+    .homemensec2imagehoverset div h2 {
+        font-size: 30px;
+    }
+
+    .homemensec2imagehoverset a {
+        padding: 10px 20px;
+
+    }
+
+    .homemensec3maindiv .homemensec3subdiv {
+        height: 370px;
+        width: 100%;
+
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv2 div {
+        height: 90px;
+        width: 90px;
+    }
+
+    .carousel-indicatorsmenpage [data-bs-target] {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menpage .menpagetext {
+        top: 15%;
+        right: 5%;
+        width: 30%;
+        height: 60%;
+        border-radius: 0px 70px 0px 70px;
+
+    }
+
+    .menpage .menpagetext .imgsetdiv {
+        width: 100%;
+        height: 110%;
+    }
+
+    .menpage .menpagefirstclass {
+        top: 18%;
+        left: 5%;
+    }
+
+    .menpage .menpagefirstclass .smalltext {
+        font-size: 40px;
+    }
+
+    .menpage .menpagefirstclass .bigtext {
+        font-size: 55px;
+    }
+
+    .menpage .menpagethirdclass {
+        top: 30%;
+        right: 5%;
+    }
+
+    .menpage .menpagethirdclass .bigtext2 {
+        font-size: 60px;
+    }
+
+    .menpage .menpagethirdclass .smalltext2 {
+        font-size: 45px;
+    }
+
+    .menpageblacksec .menpageblacksech3 {
+        font-size: 40px;
+    }
+
+    .menpageblacksec .menpageblacksech3::after {
+        width: 32%;
+        height: 7px;
+    }
+
+    .menpageblacksec .menpageblacksech3::before {
+        width: 32%;
+        height: 7px;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h1 {
+        font-size: 21px;
+        padding-left: 0px;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h5 {
+        font-size: 17px;
+        padding-left: 0px;
+    }
+ 
+}
+
+@media only screen and (min-width: 991.98px) {
+    .homemensec3maindiv .homemensec3subdiv {
+        height: 500px;
+        width: 100%;
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv2 div {
+        height: 90px;
+        width: 90px;
+    }
+
+    .carousel-indicatorsmenpage [data-bs-target] {
+        width: 50px;
+        height: 50px;
+    }
+
+    .menpage .menpagetext {
+        top: 15%;
+        right: 5%;
+        width: 30%;
+        height: 60%;
+        border-radius: 0px 90px 0px 90px;
+    }
+
+    .menpage .menpagetext .imgsetdiv {
+        width: 100%;
+        height: 110%;
+    }
+
+    .menpage .menpagefirstclass {
+        top: 18%;
+        left: 5%;
+    }
+
+    .menpage .menpagefirstclass .smalltext {
+        font-size: 50px;
+    }
+
+    .menpage .menpagefirstclass .bigtext {
+        font-size: 80px;
+    }
+
+    .menpage .menpagethirdclass {
+        top: 30%;
+        right: 10%;
+    }
+
+    .menpage .menpagethirdclass .bigtext2 {
+        font-size: 70px;
+    }
+
+    .menpage .menpagethirdclass .smalltext2 {
+        font-size: 50px;
+    }
+
+    .menpageblacksec .menpageblacksech3 {
+        font-size: 50px;
+    }
+
+    .menpageblacksec .menpageblacksech3::after {
+        width: 33%;
+    }
+
+    .menpageblacksec .menpageblacksech3::before {
+        width: 33%;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h1 {
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h5 {
+        font-size: 15px;
+        padding-left: 0px;
+    }
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv1 div h4 {
+        font-size: 25px;
+    }
+
+    .homemensec3maindiv .homemensec3subdiv .homemensec3subdiv1 div p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .menpage .menpagetext {
+        top: 15%;
+        right: 10%;
+        width: 30%;
+        height: 60%;
+        border-radius: 0px 90px 0px 90px;
+    }
+
+    .menpage .menpagetext .imgsetdiv {
+        width: 100%;
+        height: 110%;
+    }
+
+    .menpage .menpagefirstclass {
+        top: 18%;
+        left: 5%;
+    }
+
+    .menpage .menpagefirstclass .smalltext {
+        font-size: 55px;
+    }
+
+    .menpage .menpagefirstclass .bigtext {
+        font-size: 80px;
+    }
+
+    .menpage .menpagethirdclass {
+        top: 30%;
+        right: 10%;
+    }
+
+    .menpage .menpagethirdclass .bigtext2 {
+        font-size: 80px;
+    }
+
+    .menpage .menpagethirdclass .smalltext2 {
+        font-size: 60px;
+    }
+
+    .menpageblacksec .menpageblacksech3 {
+        font-size: 60px;
+    }
+
+    .menpageblacksec .menpageblacksech3::after {
+        width: 35%;
+    }
+
+    .menpageblacksec .menpageblacksech3::before {
+        width: 35%;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h1 {
+        font-size: 25px;
+        padding-left: 0px;
+    }
+
+    .menslidermaindiv .menslidersubdiv .menslidersubdiv1 div h5 {
+        font-size: 17px;
+        padding-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .menpage .menpagetext {
+        top: 15%;
+        right: 10%;
+        width: 30%;
+        height: 60%;
+        border-radius: 0px 90px 0px 90px;
+    }
+
+    .menpage .menpagetext .imgsetdiv {
+        width: 100%;
+        height: 110%;
+    }
+
+    .menpage .menpagefirstclass {
+        top: 18%;
+        left: 5%;
+    }
+
+    .menpage .menpagefirstclass .smalltext {
+        font-size: 60px;
+    }
+
+    .menpage .menpagefirstclass .bigtext {
+        font-size: 100px;
+    }
+
+    .menpage .menpagethirdclass {
+        top: 30%;
+        right: 15%;
+    }
+
+    .menpage .menpagethirdclass .bigtext2 {
+        font-size: 80px;
+    }
+
+    .menpage .menpagethirdclass .smalltext2 {
+        font-size: 60px;
+    }
+}
