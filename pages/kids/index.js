@@ -976,7 +976,7 @@ const index = () => {
                                         <div>
                                             <img src={m?.image} alt="" width="100%" height="100%" className="img-fluid" />
                                             <div className={m?.firstclass}>
-                                                <div className={m?.bigtext}>{m?.h1}</div>
+                                                <dipv className={m?.bigtext}>{m?.h1}</dipv>
                                             </div>
                                         </div>
                                     </Carousel.Item>

@@ -3,7 +3,6 @@ import React, { useState } from "react"
 import { Container, Dropdown, DropdownButton, Nav, NavDropdown, Navbar, Offcanvas } from "react-bootstrap"
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 
-
 const WomenMobile = () => {
 
     const [show, setShow] = useState(false);
@@ -51,7 +50,7 @@ const WomenMobile = () => {
             </Offcanvas>
             <Offcanvas show={show1} onHide={handleClose1} className="offcanvas offcanvas-end2 ">
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title> <Link href="/women/ethnicfusion"> ETHNIC & FUSION WEAR </Link></Offcanvas.Title>
+                    <Offcanvas.Title><Link href="/women/ethnicfusion">ETHNIC & FUSION WEAR</Link></Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <Link href="/women/ethnicfusion/kurtaandkurtis" legacyBehavior><a><p>Kurtas & Kurtis</p></a></Link>

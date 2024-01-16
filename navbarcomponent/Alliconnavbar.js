@@ -34,58 +34,61 @@ const Alliconnavbar = (props) => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="d-flex justify-content-evenly align-content-evenly  w-100">
               <div className="d-flex flex-column flex-lg-row">
-                <Dropdown className="d-none d-lg-block">
+                {/* <Dropdown className="d-none d-lg-block">
                   <Link href="/women">
-                    <Dropdown.Toggle  variant="auto" className="nav1link mt-xl-0">
+                    <Dropdown.Toggle variant="auto" className="nav1link mt-xl-0">
                       Women <span><BiChevronDown /></span>
                     </Dropdown.Toggle>
                   </Link>
                   <Dropdown.Menu className="womendrop g-0 p-0  border">
                     <Women />
                   </Dropdown.Menu>
-                </Dropdown>
-
-      
-
-
+                </Dropdown> */}
+                <Link href="/women" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" className="" legacyBehavior>
+                  <li className="nav-item dropdown d-none d-lg-block nav1link">
+                    Women
+                    {/* <span><BiChevronDown /></span> */}
+                    <div className="dropdown-menu dropdown-menu-start dropdown-menu-lg-start FIRST" aria-labelledby="navbarDropdown">
+                      <Women />
+                    </div>
+                  </li>
+                </Link>
                 <div className="d-block d-lg-none">
                   <WomenMobile />
                 </div>
 
-                  <Dropdown autoClose="outside" className="d-none d-lg-block">
-                <Link href="/men">
-                    <Dropdown.Toggle variant="auto" className="nav1link mt-xl-0">
-                      Men <span><BiChevronDown /></span>
-                    </Dropdown.Toggle>
-                </Link>
-
-                    <Dropdown.Menu className="womendrop g-0 p-0">
+                <Link href="/men" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" className="" legacyBehavior>
+                  <li className="nav-item dropdown d-none d-lg-block nav1link">
+                    Men
+                    {/* <span><BiChevronDown /></span> */}
+                    <div className="dropdown-menu dropdown-menu-start dropdown-menu-lg-start SECOND" aria-labelledby="navbarDropdown">
                       <Men />
-                    </Dropdown.Menu>
-                  </Dropdown>
-
+                    </div>
+                  </li>
+                </Link>
                 <div className="d-block d-lg-none">
                   <MenMobile />
                 </div>
 
-                  <Dropdown autoClose="outside" className="d-none d-lg-block">
-                <Link href="/kids">
-                    <Dropdown.Toggle variant="auto" className="nav1link mt-xl-0 ">
-                      Kids <span><BiChevronDown /></span>
-                    </Dropdown.Toggle>
-                </Link>
 
-                    <Dropdown.Menu className="womendrop g-0 p-0">
+                <Link href="/kids" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" className="" legacyBehavior>
+                  <li className="nav-item dropdown d-none d-lg-block nav1link">
+                    Kids
+                    {/* <span><BiChevronDown /></span> */}
+
+                    <div className="dropdown-menu dropdown-menu-start dropdown-menu-lg-start THIRD" aria-labelledby="navbarDropdown">
                       <Kids />
-                    </Dropdown.Menu>
-                  </Dropdown>
+                    </div>
+                  </li>
+                </Link>
 
                 <div className="d-block d-lg-none">
                   <KidsMobile />
                 </div>
 
                 <Link href="/service" variant="auto" className="nav1link mt-xl-0 d-none d-lg-block">
-                  Service <span><BiChevronDown /></span>
+                  Service
+                  {/* <span><BiChevronDown /></span> */}
                 </Link>
                 <Link href="/service" variant="auto" className="nav1link mt-xl-0  w-100  d-block d-lg-none"   >
                   Service
@@ -93,7 +96,8 @@ const Alliconnavbar = (props) => {
                 </Link>
 
                 <Link href="/blog" variant="auto" className="nav1link mt-xl-0 d-none d-lg-block">
-                  Blog <span><BiChevronDown /></span>
+                  Blog
+                  {/* <span><BiChevronDown /></span> */}
                 </Link>
                 <Link href="/blog" variant="auto" className="nav1link mt-xl-0  w-100  d-block d-lg-none">
                   Blog
@@ -101,7 +105,8 @@ const Alliconnavbar = (props) => {
                 </Link>
 
                 <Link href="/contact-us" variant="auto" className="nav1link mt-xl-0 d-none d-lg-block">
-                  Contact <span><BiChevronDown /></span>
+                  Contact
+                  {/* <span><BiChevronDown /></span> */}
                 </Link>
                 <Link href="/contact-us" variant="auto" className="nav1link mt-xl-0  w-100 d-block d-lg-none">
                   Contact

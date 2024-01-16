@@ -1,11 +1,30 @@
 import Alliconnavbar from "@/navbarcomponent/Alliconnavbar";
+import { getPostApi } from "@/store/Action/PostAction";
 import Link from "next/link"
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { Col, Nav, Row, Tab } from "react-bootstrap"
 import { Carousel } from "react-bootstrap";
+import { useDispatch, useSelector } from "react-redux";
 import Slider from "react-slick";
 
+
+// {{{{{{{{{{{{{{{{{{{{comment ma che atlu karvanu jyare getserversideprops thi data levo hoi tyare direct api muki devani aano use je component ma mukyo hoi atla component purto j hoi }}}}}}}}}}}}}}}}}}}}
+// getserversideprops linitation ae only pages ma j work karse pages ni bar na component ma nai
+
+
+// export const getServerSideProps = async () => {
+//     const res = await fetch('http://localhost:3000/post')
+//     const repo = await res.json()
+//     console.log('first', repo)
+//     return {
+//         props: {
+//             data: repo
+//         },
+//     }
+// }
 const index = () => {
+    // const index = ({ data }) => {
+    // console.log("data--------", data)
     const [index, setIndex] = useState(0);
 
     const handleSelect = (selectedIndex) => {

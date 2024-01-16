@@ -1,4 +1,28 @@
  /* salethreeimagesec || sale1 */
+ .carousel-control-next,
+ .carousel-control-prev {
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     z-index: 1;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 15%;
+     padding: 0;
+     color: #fff;
+     text-align: center;
+     background: 0 0;
+     border: 0;
+     opacity: 0;
+     transition: opacity .15s ease;
+ }
+
+ .carousel-control-next:hover,
+ .carousel-control-prev:hover {
+     opacity: 0;
+ }
+
  .sale1borderimage {
      outline: 6px solid rgba(var(--rgbwhite-color), 0.3);
      outline-offset: -13px;
@@ -320,96 +344,97 @@
      }
  }
 
- 
+
 
  @media only screen and (min-width: 575.98px) {
-    .sale1allsubimage {
-        top: 0px;
-        /* left: -40px; */
-        width: 250px;
-        height: 250px;
-    }
+     .sale1allsubimage {
+         top: 0px;
+         /* left: -40px; */
+         width: 250px;
+         height: 250px;
+     }
 
-    .sale3maindiv {
-        height: 300px;
+     .sale3maindiv {
+         height: 300px;
 
-    }
+     }
 
-    .sale3maindiv .sale3maindiv2 {
-        height: 100%;
-        outline-offset: -20px;
+     .sale3maindiv .sale3maindiv2 {
+         height: 100%;
+         outline-offset: -20px;
 
-    }
+     }
 
-    .sale3maindiv .sale3maindiv2 .sale3sub1div {
-        width: 35%;
-        height: 100%;
-    }
+     .sale3maindiv .sale3maindiv2 .sale3sub1div {
+         width: 35%;
+         height: 100%;
+     }
 
-    .sale3maindiv .sale3maindiv2 .sale3sub1div .yellowshirt {
-        top: 0;
-        left: 20%;
-        width: 100%;
-        height: 80%;
-    }
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .yellowshirt {
+         top: 0;
+         left: 20%;
+         width: 100%;
+         height: 80%;
+     }
 
-    .sale3maindiv .sale3maindiv2 .sale3sub1div .blackbag1 {
-        bottom: -42px;
-        left: 7%;
-        width: 50%;
-        height: 50%;
-    }
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .blackbag1 {
+         bottom: -42px;
+         left: 7%;
+         width: 50%;
+         height: 50%;
+     }
 
-    .sale3maindiv .sale3maindiv2 .sale3sub1div .redbag1 {
-        bottom: -30px;
-        left: 70%;
-        width: 50%;
-        height: 40%;
-    }
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .redbag1 {
+         bottom: -30px;
+         left: 70%;
+         width: 50%;
+         height: 40%;
+     }
 
-    .sale3maindiv .sale3maindiv2 .sale3sub1div .cloth {
-        bottom: -50px;
-        left: 40%;
-        width: 50%;
-        height: 40%;
-    }
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .cloth {
+         bottom: -50px;
+         left: 40%;
+         width: 50%;
+         height: 40%;
+     }
 
-    .sale3maindiv .sale3maindiv2 .sale3sub1div .saletext {
-        top: 25%;
-        left: 52%;
-        width: 100%;
-        height: 40%;
-        font-size: 22px;
-    }
+     .sale3maindiv .sale3maindiv2 .sale3sub1div .saletext {
+         top: 25%;
+         left: 52%;
+         width: 100%;
+         height: 40%;
+         font-size: 22px;
+     }
 
-    .sale3maindiv .sale3maindiv2 .sale3sub2div {
-        width: 65%;
-        height: 100%;
+     .sale3maindiv .sale3maindiv2 .sale3sub2div {
+         width: 65%;
+         height: 100%;
 
-        padding: 0px 15px !important;
-
-
-        border-radius: 140px 0px 0px 140px;
+         padding: 0px 15px !important;
 
 
-    }
+         border-radius: 140px 0px 0px 140px;
 
-    .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsuper {
-        font-size: 35px;
 
-    }
+     }
 
-    .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divoff {
-        font-size: 20px;
-        width: 75px;
-        height: 88px;
-        padding: 2px;
-    }
-    .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsale {
-        padding: 0;
-        font-size: 45px;
-    }
-}
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsuper {
+         font-size: 35px;
+
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divoff {
+         font-size: 20px;
+         width: 75px;
+         height: 88px;
+         padding: 2px;
+     }
+
+     .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsale {
+         padding: 0;
+         font-size: 45px;
+     }
+ }
 
  @media only screen and (max-width: 575.98px) {
      .sale1allsubimage {
@@ -494,6 +519,7 @@
          height: 88px;
          padding: 2px;
      }
+
      .sale3maindiv .sale3maindiv2 .sale3sub2div div .sale3sub2divsale {
          padding: 0;
          font-size: 45px;

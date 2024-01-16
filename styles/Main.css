@@ -1,7 +1,7 @@
 :root {
     --black-color: rgb(0, 0, 0);
     --rgbblack-color: 0, 0, 0;
-    --white-color:white;
+    --white-color: white;
     --rgbwhite-color: 255, 255, 255;
     --textdark-color: #343f52;
     --rgbtextdark-color: 52, 63, 82;
@@ -18,7 +18,7 @@
     --data-colorlogo: #fab758; */
 }
 
- /* {{{{{{{{{{{--------NAVBAR AND FOOTER-----------}}navbarheight}}}}}}}}} */
+/* {{{{{{{{{{{--------NAVBAR AND FOOTER-----------}}navbarheight}}}}}}}}} */
 
 .carousel-indicatorsnavbar [data-bs-target] {
     background-clip: padding-box;
@@ -58,10 +58,12 @@
     box-shadow: none !important;
 
 }
+
 .form-control:focus {
     box-shadow: none;
     border: 1px solid var(--data-colorlogo);
 }
+
 /* offcanvas */
 /* info */
 .offcanvas.offcanvas-end {
@@ -82,6 +84,7 @@
     transform: translateX(100%);
     /* // width: 17%; */
 }
+
 /* search */
 .offcanvas.offcanvas-top {
     border-bottom: var(--bs-offcanvas-border-width) solid var(--bs-offcanvas-border-color);
@@ -92,6 +95,7 @@
     padding: 33px;
 
 }
+
 /* .offcanvas.offcanvas-start {
     border-right: none;
 } */
@@ -113,7 +117,10 @@
     border: none;
     font-size: 17px;
     font-weight: 600;
+    cursor: pointer;
+    /* margin: 0px 10px; */
 }
+
 /* .nav1link button {
     display: block !important;
 
@@ -144,39 +151,43 @@
 
 }
 
-/* .navlink2 {
-         color: var(--textdark-color) !important;
-         font-size: 17px;
-         font-weight: 600;
-         outline: none;
-         border: none;
-    
-         
-        }
-        .navlink2:focus {
-            background-color: whitesmoke;
-        }
-   
-        .navlink2:active {
-            background-color: whitesmoke;
-        }
-   
-        .navlink2:hover {
-            background-color: whitesmoke;
-   
-        }
-   
-        .navlink2 span {
-            color: var(--data-color-logo);
-            font-size: 20px;
-            font-weight: auto;
-        }
-   
-        .navlink2::after {
-            content: "";
-            border-top: none;
-   
-        } */
+.dropdown-item {
+    padding: 0;
+}
+
+.dropdown-item:active {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.dropdown-item:hover {
+    color: var(--bs-dropdown-link-hover-color);
+    background-color: transparent;
+}
+
+.nav-item:hover .FIRST {
+    display: block;
+    position: absolute;
+    top: 100%;
+    /* left: -80%; */
+}
+
+.nav-item:hover .SECOND {
+    display: block;
+    position: absolute;
+    top: 100%;
+    /* left: -80%; */
+}
+
+.nav-item:hover .THIRD {
+    display: block;
+    position: absolute;
+    top: 100%;
+    /* left: -80%; */
+}
+
+
 
 /* BlackandWhitenavbar */
 .nav2link1 {
@@ -187,6 +198,7 @@
     border: none;
 
 }
+
 .nav2link1:hover {
     color: var(--white-color);
 }
@@ -196,8 +208,8 @@
 }
 
 .nav2link1 span {
-    color: var(--data-colorlogo);  
-      font-size: 20px;
+    color: var(--data-colorlogo);
+    font-size: 20px;
     font-weight: auto;
 }
 
@@ -216,6 +228,7 @@
     border: none;
 
 }
+
 .nav2link2:hover {
     color: var(--black-color);
 }
@@ -309,7 +322,8 @@
 .nav2icon:nth-child(4) {
     color: #C13584 !important;
 }
- /* info */
+
+/* info */
 .infotext {
     font-size: 18px;
     font-weight: auto;
@@ -322,10 +336,11 @@
     margin-top: calc(-.5 * var(--bs-offcanvas-padding-y));
     margin-right: calc(-.5 * var(--bs-offcanvas-padding-x));
     margin-bottom: calc(-.5 * var(--bs-offcanvas-padding-y));
-    background-color:var(--white-color);
+    background-color: var(--white-color);
     border-radius: 50%;
 }
- /* signin signup */
+
+/* signin signup */
 .modal {
     background-color: rgba(var(--rgbblack-color), 0.373);
 }
@@ -344,6 +359,7 @@
     padding: 40px 50px;
 
 }
+
 .modal-content h2 {
     font-weight: 700;
     color: var(--textdark-color);
@@ -385,9 +401,10 @@
 
 .ORdivider {
     position: relative;
-    color:var(--textdark-color);
+    color: var(--textdark-color);
 
 }
+
 .ORdivider::after {
     content: "";
     position: absolute;
@@ -421,11 +438,12 @@
     position: relative;
     bottom: 0px;
 
-    
+
 }
+
 .icon1:hover {
     background-color: rgb(242, 82, 82);
-    color:  var(--white-color);
+    color: var(--white-color);
     bottom: 7px;
 
 }
@@ -442,12 +460,13 @@
     bottom: 0px;
 
 }
-.icon2:hover {
-        background-color: #3f78e0;
-        color: var(--white-color);
-        bottom: 7px;
 
-    }
+.icon2:hover {
+    background-color: #3f78e0;
+    color: var(--white-color);
+    bottom: 7px;
+
+}
 
 .icon3 {
     width: 40px;
@@ -459,26 +478,29 @@
     position: relative;
     bottom: 0px;
 
-    
+
 }
+
 .icon3:hover {
     background-color: rgb(88, 195, 237);
     color: var(--white-color);
     bottom: 7px;
 
 }
- /* button che  */
+
+/* button che  */
 .btn_login {
     background-color: var(--data-colorlogo);
-    color:var(--white-color);
+    color: var(--white-color);
     padding: 10px 20px;
     transition: all 0.5s ease-in-out;
 
-    
+
 }
+
 .btn_login:hover {
     background-color: var(--data-colorlogo) !important;
-    color:var(--white-color) !important;
+    color: var(--white-color) !important;
 
 }
 
@@ -498,6 +520,7 @@
 .loginformtext {
     color: var(--data-colorlogo);
 }
+
 /* Underline From Left */
 .hvr-underline-from-left {
     display: inline-block;
@@ -566,8 +589,8 @@
 } 
 
 .womendrop {  */
-    /* background-color: rgb(154, 19, 19) !important; */
-    /* position: absolute !important;
+/* background-color: rgb(154, 19, 19) !important; */
+/* position: absolute !important;
     left: -178px !important;
 }  */
 
@@ -607,7 +630,7 @@
 
 .whitecommonfootermaindiv .footer1email {
     background-color: transparent;
-    border: 1px solid rgba(var(--rgbwhite-color),0.117);
+    border: 1px solid rgba(var(--rgbwhite-color), 0.117);
     border-radius: 7px;
     padding: 7px;
     color: white;
@@ -615,7 +638,7 @@
 }
 
 .whitecommonfootermaindiv .footer1email:focus {
-    outline: 1px solid rgba(var(--rgbwhite-color),0.117);
+    outline: 1px solid rgba(var(--rgbwhite-color), 0.117);
 }
 
 /* // textblackcommonfooter */
@@ -719,9 +742,10 @@
     color: var(--white-color);
     bottom: 7px;
 }
+
 .btn1:active {
     background-color: var(--data-colorlogo) !important;
-    color: var(--white-color)!important;
+    color: var(--white-color) !important;
 }
 
 
@@ -782,7 +806,7 @@
 
 /* // footer5 */
 .footer5maindiv {
-    
+
     padding: 50px 10px;
 }
 
@@ -867,6 +891,7 @@
     .blackcommonfootermaindiv h3 {
         padding: 10px 0px 20px 0px;
     }
+
     .offcanvas.offcanvas-end {
         left: 5%;
         width: 95%;
@@ -878,7 +903,7 @@
     }
 
     .nav1link {
-        padding: 20px 4px
+        padding: 20px 4px;
     }
 
     .nav2link1 {
@@ -924,11 +949,32 @@
 
 @media only screen and (min-width: 991.98px) {
     .nav1link {
-        padding: 33px 4px
+        padding: 33px 4px;
+        margin: 0px 10px;
     }
 
     .womensetdiv {
-        width: 800px;
+        width: 850px;
+    }
+
+    .nav-item:hover .FIRST {
+        left: -70%;
+    }
+
+    .mensetdiv {
+        width: 850px;
+    }
+
+    .nav-item:hover .SECOND {
+        left: -240%;
+    }
+
+    .kidssetdiv {
+        width: 850px;
+    }
+
+    .nav-item:hover .THIRD {
+        left: -240%;
     }
 
     .nav2link1 {
@@ -937,6 +983,11 @@
 }
 
 @media only screen and (min-width: 1200px) {
+    .nav1link {
+        padding: 33px 10px;
+        margin: 0px 15px;
+    }
+
     .footer1maindiv {
         padding: 100px 30px;
 
@@ -961,6 +1012,58 @@
     }
 
     .womensetdiv {
-        width: 1000px;
+        width: 900px;
+    }
+
+    .nav-item:hover .FIRST {
+        left: 0%;
+    }
+
+    .mensetdiv {
+        width: 900px;
+    }
+
+    .nav-item:hover .SECOND {
+        left: -130%;
+    }
+
+    .kidssetdiv {
+        width: 900px;
+    }
+
+    .nav-item:hover .THIRD {
+        left: -240%;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+
+    .nav1link {
+        padding: 33px 20px;
+        margin: 0px 10px;
+    }
+
+    .womensetdiv {
+        width: 900px;
+    }
+
+    .nav-item:hover .FIRST {
+        left: 0%;
+    }
+
+    .mensetdiv {
+        width: 900px;
+    }
+
+    .nav-item:hover .SECOND {
+        left: 0%;
+    }
+
+    .kidssetdiv {
+        width: 900px;
+    }
+
+    .nav-item:hover .THIRD {
+        left: 0%;
     }
 }

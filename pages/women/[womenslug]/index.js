@@ -7,10 +7,14 @@ import Jewellery from "@/component/women/Jewellery";
 import Sportswear from "@/component/women/Sportswear";
 import Watches from "@/component/women/Watches";
 import Westernwear from "@/component/women/Westernwear";
+import { getPostApi } from "@/store/Action/PostAction";
+import axios from "axios";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Nav, Tab } from "react-bootstrap";
+import { useDispatch, useSelector } from "react-redux";
+
 
 export async function getStaticPaths() {
     return {
@@ -72,7 +76,7 @@ export async function getStaticProps({ params }) {
             paragraph: "Fashion has always been so temporary and uncertain. You can\"t keep up with it. This social phenomenon is very whimsical, thus we as the consumers always try to stay in touch with all the latest fashion tendencies.",
             image: "/Women/womenslug/bg8.jpg",
         },
-        
+
     };
 
     const { heading, paragraph, image } = categoryData[params.womenslug] || {
@@ -91,18 +95,25 @@ export async function getStaticProps({ params }) {
 }
 
 const Index = ({ dynamicHeading, dynamicParagraph, dynamicImage }) => {
+    // let state = useSelector(state => state?.product?.post);
+    // console.log(state, "statettftft")
+    // let dispatch = useDispatch();
+    // useEffect(() => {
+    //     dispatch(getPostApi())
+    // }, [])
+
     const router = useRouter();
     const { womenslug } = router.query;
 
-    if (!womenslug || 
-        !(womenslug === "ethnicfusion" 
-        || womenslug === "westernwear" 
-        || womenslug === "sportswear" 
-        || womenslug === "beauty" 
-        || womenslug === "footwearandbags" 
-        || womenslug === "watches"
-        || womenslug === "jewellery"
-        || womenslug === "fragrances")) {
+    if (!womenslug ||
+        !(womenslug === "ethnicfusion"
+            || womenslug === "westernwear"
+            || womenslug === "sportswear"
+            || womenslug === "beauty"
+            || womenslug === "footwearandbags"
+            || womenslug === "watches"
+            || womenslug === "jewellery"
+            || womenslug === "fragrances")) {
         return null;
     }
     return (
@@ -120,39 +131,38 @@ const Index = ({ dynamicHeading, dynamicParagraph, dynamicImage }) => {
             </div>
             {womenslug === "ethnicfusion" && (
                 <EthnicFusion
-                    dynamicHeading={dynamicHeading}
-                />
+                    dynamicHeading={dynamicHeading} />
             )}
             {womenslug === "westernwear" && (
                 <Westernwear
-                dynamicHeading={dynamicHeading}/>
-             
+                    dynamicHeading={dynamicHeading} />
+
             )}
             {womenslug === "sportswear" && (
-                <Sportswear 
-                dynamicHeading={dynamicHeading}/>
-             
+                <Sportswear
+                    dynamicHeading={dynamicHeading} />
+
             )}
             {womenslug === "beauty" && (
                 <Beauty
-                dynamicHeading={dynamicHeading}/>
-             
+                    dynamicHeading={dynamicHeading} />
+
             )}
             {womenslug === "footwearandbags" && (
-                <FootwearandBags/>
-             
+                <FootwearandBags dynamicHeading={dynamicHeading} />
+
             )}
             {womenslug === "watches" && (
-                <Watches/>
-             
+                <Watches dynamicHeading={dynamicHeading} />
+
             )}
             {womenslug === "jewellery" && (
-                <Jewellery/>
-             
+                <Jewellery dynamicHeading={dynamicHeading} />
+
             )}
             {womenslug === "fragrances" && (
-                <Fragrances/>
-             
+                <Fragrances dynamicHeading={dynamicHeading} />
+
             )}
         </>
     );

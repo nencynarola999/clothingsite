@@ -38,6 +38,11 @@ import Link from "next/link";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Aos from "aos";
+import { Provider } from "react-redux";
+import { store } from "@/store/store";
+import 'swiper/css';
+
+
 
 export default function App({ Component, pageProps }) {
   useEffect(() => {
@@ -48,6 +53,7 @@ export default function App({ Component, pageProps }) {
     });
   }, []);
   return <>
+   <Provider store={store}>
     <Topbar />
     <Alliconnavbar
       // language
@@ -83,7 +89,7 @@ export default function App({ Component, pageProps }) {
     {/* <WhitebgjoincommunityFooter/> */}
     {/* <BlackbgjoincommunityFooter/> */}
     <LightbgFooter />
-
+    </Provider>
   </>
 
 }

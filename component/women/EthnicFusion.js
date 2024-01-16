@@ -1,8 +1,28 @@
+import { getethincfusionApi } from "@/store/Action/PostAction";
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Nav, Tab } from "react-bootstrap";
+import { useDispatch, useSelector } from "react-redux";
+
 
 const EthnicFusion = ({ dynamicHeading }) => {
+    let state = useSelector(state => state?.product?.ethincfusion);
+    console.log(state, "statettftft")
+    let dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(getethincfusionApi())
+    }, [])
+    let extrasec = state?.filter(x => x?.category == "extrasec")
+    let kurtakurti = state?.filter(x => x?.category == "kurtakurti")
+    let kurtasets = state?.filter(x => x?.category == "kurtasets")
+    let ethnicwear = state?.filter(x => x?.category == "ethnicwear")
+    let topstunic = state?.filter(x => x?.category == "topstunic")
+    let leggings = state?.filter(x => x?.category == "leggings")
+    let pantspalazzos = state?.filter(x => x?.category == "pantspalazzos")
+    let skirts = state?.filter(x => x?.category == "skirts")
+    let dupattasstoles = state?.filter(x => x?.category == "dupattasstoles")
+    let saree = state?.filter(x => x?.category == "saree")
+
     const [Heading, setHeading] = useState("");
 
     const [isKurtakurtiChecked, setIsKurtakurtiChecked] = useState(false);
@@ -125,674 +145,6 @@ const EthnicFusion = ({ dynamicHeading }) => {
         setHeading(isSareeChecked ? "" : "Saree");
     };
 
-    let extrasec = [
-        {
-            image: "/Women/womenslug/i1.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec",
-        },
-        {
-            image: "/Women/womenslug/i2.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i3.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i4.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i5.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i6.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i1.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i3.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i2.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i5.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i6.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i4.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-
-    ]
-    let kurtakurti = [
-        {
-            image: "/Women/womenpage/A1.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtakurti"
-
-        },
-        {
-            image: "/Women/womenpage/A2.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtakurti"
-        },
-        {
-            image: "/Women/womenpage/A3.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "kurtakurti"
-        },
-        {
-            image: "/Women/womenpage/A4.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtakurti"
-        },
-        {
-            image: "/Women/womenpage/A5.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtakurti"
-        },
-        {
-            image: "/Women/womenpage/A6.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtakurti"
-        },
-        {
-            image: "/Women/womenpage/A1.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtakurti"
-
-        },
-        {
-            image: "/Women/womenpage/A2.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtakurti"
-        },
-        {
-            image: "/Women/womenpage/A3.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "kurtakurti"
-        },
-        {
-            image: "/Women/womenpage/A4.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtakurti"
-        },
-        {
-            image: "/Women/womenpage/A5.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtakurti"
-        },
-        {
-            image: "/Women/womenpage/A6.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtakurti"
-        },
-    ]
-    let kurtasets = [
-        {
-            image: "/Women/womenpage/A7.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtasets"
-        },
-        {
-            image: "/Women/womenpage/A8.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtasets"
-        },
-        {
-            image: "/Women/womenpage/A9.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "kurtasets"
-        },
-        {
-            image: "/Women/womenpage/A10.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtasets"
-        },
-        {
-            image: "/Women/womenpage/A11.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtasets"
-        },
-        {
-            image: "/Women/womenpage/A12.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtasets"
-        },
-        {
-            image: "/Women/womenpage/A7.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtasets"
-        },
-        {
-            image: "/Women/womenpage/A8.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtasets"
-        },
-        {
-            image: "/Women/womenpage/A9.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "kurtasets"
-        },
-        {
-            image: "/Women/womenpage/A10.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtasets"
-        },
-        {
-            image: "/Women/womenpage/A11.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtasets"
-        },
-        {
-            image: "/Women/womenpage/A12.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "kurtasets"
-        },
-    ]
-    let ethnicwear = [
-        {
-            image: "/Women/womenpage/A13.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "ethnicwear"
-        },
-        {
-            image: "/Women/womenpage/A14.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "ethnicwear"
-        },
-        {
-            image: "/Women/womenpage/A15.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "ethnicwear"
-        },
-        {
-            image: "/Women/womenpage/A16.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "ethnicwear"
-        },
-        {
-            image: "/Women/womenpage/A17.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "ethnicwear"
-        },
-        {
-            image: "/Women/womenpage/A18.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "ethnicwear"
-        },
-        {
-            image: "/Women/womenpage/A13.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "ethnicwear"
-        },
-        {
-            image: "/Women/womenpage/A14.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "ethnicwear"
-        },
-        {
-            image: "/Women/womenpage/A15.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "ethnicwear"
-        },
-        {
-            image: "/Women/womenpage/A16.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "ethnicwear"
-        },
-        {
-            image: "/Women/womenpage/A17.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "ethnicwear"
-        },
-        {
-            image: "/Women/womenpage/A18.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "ethnicwear"
-        },
-    ]
-    let topstunic = [
-        {
-            image: "/Women/womenpage/A19.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstunic"
-        },
-        {
-            image: "/Women/womenpage/A20.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstunic"
-        },
-        {
-            image: "/Women/womenpage/A21.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "topstunic"
-        },
-        {
-            image: "/Women/womenpage/A22.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstunic"
-        },
-        {
-            image: "/Women/womenpage/A23.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstunic"
-        },
-        {
-            image: "/Women/womenpage/A24.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstunic"
-        },
-        {
-            image: "/Women/womenpage/A19.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstunic"
-        },
-        {
-            image: "/Women/womenpage/A20.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstunic"
-        },
-        {
-            image: "/Women/womenpage/A21.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "topstunic"
-        },
-        {
-            image: "/Women/womenpage/A22.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstunic"
-        },
-        {
-            image: "/Women/womenpage/A23.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstunic"
-        },
-        {
-            image: "/Women/womenpage/A24.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstunic"
-        }
-    ]
-    let leggings = [
-        {
-            image: "/Women/womenpage/A25.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/A26.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/A27.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/A28.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/A29.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/A30.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-    ]
-    let pantspalazzos = [
-        {
-            image: "/Women/womenpage/A31.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "pantspalazzos"
-        },
-        {
-            image: "/Women/womenpage/A32.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "pantspalazzos"
-        },
-        {
-            image: "/Women/womenpage/A33.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "pantspalazzos"
-        },
-        {
-            image: "/Women/womenpage/A34.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "pantspalazzos"
-        },
-        {
-            image: "/Women/womenpage/A35.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "pantspalazzos"
-        },
-        {
-            image: "/Women/womenpage/A36.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "pantspalazzos"
-        },
-    ]
-    let skirts = [
-        {
-            image: "/Women/womenpage/A37.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "skirts"
-        },
-        {
-            image: "/Women/womenpage/A38.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "skirts"
-        },
-        {
-            image: "/Women/womenpage/A39.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "skirts"
-        },
-        {
-            image: "/Women/womenpage/A40.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "skirts"
-        },
-        {
-            image: "/Women/womenpage/A41.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "skirts"
-        },
-        {
-            image: "/Women/womenpage/A42.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "skirts"
-        },
-    ]
-    let dupattasstoles = [
-        {
-            image: "/Women/womenpage/A43.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "dupattasstoles"
-        },
-        {
-            image: "/Women/womenpage/A44.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "dupattasstoles"
-        },
-        {
-            image: "/Women/womenpage/A45.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "dupattasstoles"
-        },
-        {
-            image: "/Women/womenpage/A46.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "dupattasstoles"
-        },
-        {
-            image: "/Women/womenpage/A47.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "dupattasstoles"
-        },
-        {
-            image: "/Women/womenpage/A48.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "dupattasstoles"
-        },
-    ]
-    let saree = [
-        {
-            image: "/Women/womenpage/A49.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "saree"
-        },
-        {
-            image: "/Women/womenpage/A50.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "saree"
-        },
-        {
-            image: "/Women/womenpage/A51.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "saree"
-        },
-        {
-            image: "/Women/womenpage/A52.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "saree"
-        },
-        {
-            image: "/Women/womenpage/A53.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "saree"
-        },
-        {
-            image: "/Women/womenpage/A54.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "saree"
-        },
-    ]
-
     const filteredProducts = isKurtakurtiChecked
         ? kurtakurti.filter((product) => product.category === "kurtakurti")
         : isKurtasetsChecked
@@ -820,7 +172,6 @@ const EthnicFusion = ({ dynamicHeading }) => {
                     <h3 className="Homewomen1h3 px-3">Top Categories</h3>
                     <Tab.Container id="left-tabs-example" defaultActiveKey="athleticsextra">
                         <div className="row p-0 g-0 mt-5 h-100 ">
-                            {/* ... (rest of the code) */}
                             <div className="col-4 col-md-3 col-lg-2  womenpagesubdiv1 px-0">
                                 <div className="h-100 ">
                                     <div className="womenpagesideheadingset">
@@ -1012,7 +363,7 @@ const EthnicFusion = ({ dynamicHeading }) => {
                                                     <div className="col p-3 m-0" key={i}>
                                                         <div className="p-2 imagedivborder h-100">
                                                             <div className=" w-100 m-auto d-flex justify-content-center imagediv">
-                                                                <img src={x?.image} alt="" className="img-fluid h-100 w-100" />
+                                                                <img src={x?.img} alt="" className="img-fluid h-100 w-100" />
                                                             </div>
                                                             <div className=" imagetext">
                                                                 <h4 className="mt-2">{x?.name}</h4>
@@ -1038,7 +389,7 @@ const EthnicFusion = ({ dynamicHeading }) => {
                                                     <div className="col p-3 m-0" key={i}>
                                                         <div className=" p-2 imagedivborder h-100">
                                                             <div className=" w-100 m-auto d-flex justify-content-center imagediv">
-                                                                <img src={x?.image} alt="" className="img-fluid w-100 h-100" />
+                                                                <img src={x?.img} alt="" className="img-fluid w-100 h-100" />
                                                             </div>
                                                             <div className=" imagetext">
                                                                 <h4 className="mt-2">{x?.name}</h4>
@@ -1064,7 +415,7 @@ const EthnicFusion = ({ dynamicHeading }) => {
                                                     <div className="col p-3 m-0" key={i}>
                                                         <div className=" p-2 imagedivborder h-100">
                                                             <div className=" w-100 m-auto d-flex justify-content-center imagediv">
-                                                                <img src={x?.image} alt="" className="img-fluid  h-100 w-100" />
+                                                                <img src={x?.img} alt="" className="img-fluid  h-100 w-100" />
                                                             </div>
                                                             <div className=" imagetext">
                                                                 <h4 className="mt-2">{x?.name}</h4>
@@ -1090,7 +441,7 @@ const EthnicFusion = ({ dynamicHeading }) => {
                                                             <div className="col p-3 m-0" key={i}>
                                                                 <div className=" p-2 imagedivborder h-100">
                                                                     <div className=" w-100 m-auto d-flex justify-content-center imagediv">
-                                                                        <img src={x?.image} alt="" className="img-fluid  h-100 w-100" />
+                                                                        <img src={x?.img} alt="" className="img-fluid  h-100 w-100" />
                                                                     </div>
                                                                     <div className=" imagetext">
                                                                         <h4 className="mt-2">{x?.name}</h4>
@@ -1116,7 +467,7 @@ const EthnicFusion = ({ dynamicHeading }) => {
                                                             <div className="col p-3 m-0" key={i}>
                                                                 <div className=" p-2 imagedivborder h-100">
                                                                     <div className=" w-100 m-auto d-flex justify-content-center imagediv">
-                                                                        <img src={x?.image} alt="" className="img-fluid  h-100 w-100" />
+                                                                        <img src={x?.img} alt="" className="img-fluid  h-100 w-100" />
                                                                     </div>
                                                                     <div className=" imagetext">
                                                                         <h4 className="mt-2">{x?.name}</h4>
@@ -1142,7 +493,7 @@ const EthnicFusion = ({ dynamicHeading }) => {
                                                             <div className="col p-3 m-0" key={i}>
                                                                 <div className="imagedivborder h-100">
                                                                     <div className=" w-75 m-auto d-flex justify-content-center imagediv">
-                                                                        <img src={x?.image} alt="" className="img-fluid w-100 h-100" />
+                                                                        <img src={x?.img} alt="" className="img-fluid w-100 h-100" />
                                                                     </div>
                                                                     <div className=" imagetext">
                                                                         <h4 className="mt-2 px-2">{x?.name}</h4>
@@ -1170,7 +521,7 @@ const EthnicFusion = ({ dynamicHeading }) => {
                                                             <div className="col p-3 m-0" key={i}>
                                                                 <div className=" p-2 imagedivborder h-100">
                                                                     <div className=" w-100 m-auto d-flex justify-content-center imagediv">
-                                                                        <img src={x?.image} alt="" className="img-fluid  h-100 w-100" />
+                                                                        <img src={x?.img} alt="" className="img-fluid  h-100 w-100" />
                                                                     </div>
                                                                     <div className=" imagetext">
                                                                         <h4 className="mt-2">{x?.name}</h4>
@@ -1196,7 +547,7 @@ const EthnicFusion = ({ dynamicHeading }) => {
                                                             <div className="col p-3 m-0" key={i}>
                                                                 <div className=" p-2 imagedivborder h-100">
                                                                     <div className=" w-100 m-auto d-flex justify-content-center imagediv">
-                                                                        <img src={x?.image} alt="" className="img-fluid h-100 w-100" />
+                                                                        <img src={x?.img} alt="" className="img-fluid h-100 w-100" />
                                                                     </div>
                                                                     <div className=" imagetext">
                                                                         <h4 className="mt-2">{x?.name}</h4>
@@ -1222,7 +573,7 @@ const EthnicFusion = ({ dynamicHeading }) => {
                                                             <div className="col p-3 m-0" key={i}>
                                                                 <div className=" p-2 imagedivborder h-100">
                                                                     <div className=" w-75 m-auto d-flex justify-content-center imagediv">
-                                                                        <img src={x?.image} alt="" className="img-fluid h-100 w-100" />
+                                                                        <img src={x?.img} alt="" className="img-fluid h-100 w-100" />
                                                                     </div>
                                                                     <div className=" imagetext">
                                                                         <h4 className="mt-2">{x?.name}</h4>
@@ -1248,7 +599,7 @@ const EthnicFusion = ({ dynamicHeading }) => {
                                                             <div className="col p-3 m-0" key={i}>
                                                                 <div className=" p-2 imagedivborder h-100">
                                                                     <div className=" w-100 m-auto d-flex justify-content-center imagediv">
-                                                                        <img src={x?.image} alt="" className="img-fluid h-100 w-100" />
+                                                                        <img src={x?.img} alt="" className="img-fluid h-100 w-100" />
                                                                     </div>
                                                                     <div className=" imagetext">
                                                                         <h4 className="mt-2">{x?.name}</h4>

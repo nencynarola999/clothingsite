@@ -530,12 +530,13 @@
 .kidspage .kidspagefirstclass {
     position: absolute;
     top: 20%;
-    right: 40%;
+    /* right: 40%; */
     width: 100px;
+    text-align: center;
 }
 
 .kidspage .kidspagefirstclass .bigtext1 {
-    font-size: 90px;
+    /* font-size: 90px; */
     color: var(--white-color);
     font-weight: 600;
 }
@@ -546,10 +547,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 700px;
+    text-align: center;
 }
 
 .kidspage .kidspagesecondclass .bigtext2 {
-    font-size: 90px;
+    /* font-size: 90px; */
     color: var(--white-color);
     font-weight: 600;
 }
@@ -560,10 +562,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 700px;
+    text-align: center;
 }
 
 .kidspage .kidspagethirdclass .bigtext3 {
-    font-size: 90px;
+    /* font-size: 90px; */
     color: var(--white-color);
     font-weight: 600;
 }
@@ -821,8 +824,18 @@
     .kidspagetext h2 {
         font-size: 13px !important;
     }
-
-
+    .kidspage .kidspagefirstclass {
+        right: 20% !important;
+    }
+    .kidspage .kidspagefirstclass .bigtext1 {
+        font-size: 25px !important;
+    }
+    .kidspage .kidspagesecondclass .bigtext2 {
+        font-size: 25px !important;
+    }
+    .kidspage .kidspagethirdclass .bigtext3 {
+        font-size: 25px !important;
+    }
 }
 
 @media only screen and ((min-width: 350px) and (max-width: 380px)) {
@@ -979,6 +992,18 @@
     
     .kidspagetext h2 {
         font-size: 15px !important;
+    }
+    .kidspage .kidspagefirstclass {
+        right: 25% !important;
+    }
+    .kidspage .kidspagefirstclass .bigtext1 {
+        font-size: 30px !important;
+    }
+    .kidspage .kidspagesecondclass .bigtext2 {
+        font-size: 30px !important;
+    }
+    .kidspage .kidspagethirdclass .bigtext3 {
+        font-size: 30px !important;
     }
 
 }
@@ -1148,6 +1173,18 @@
     .kidspagetext h2 {
         font-size: 17px;
     }
+    .kidspage .kidspagefirstclass {
+        right: 25%;
+    }
+    .kidspage .kidspagefirstclass .bigtext1 {
+        font-size: 40px;
+    }
+    .kidspage .kidspagesecondclass .bigtext2 {
+        font-size: 40px;
+    }
+    .kidspage .kidspagethirdclass .bigtext3 {
+        font-size: 40px;
+    }
 }
 
 @media only screen and (min-width: 575.98px) {
@@ -1313,7 +1350,18 @@
     .kidspagetext h2 {
         font-size: 17px;
     }
-   
+    .kidspage .kidspagefirstclass {
+        right: 30%;
+    }
+    .kidspage .kidspagefirstclass .bigtext1 {
+        font-size: 50px;
+    }
+    .kidspage .kidspagesecondclass .bigtext2 {
+        font-size: 50px;
+    }
+    .kidspage .kidspagethirdclass .bigtext3 {
+        font-size: 50px;
+    }
 
 }
 
@@ -1491,6 +1539,18 @@
     
     .kidspagetext h2 {
         font-size: 30px;
+    }
+    .kidspage .kidspagefirstclass {
+        right: 35%;
+    }
+    .kidspage .kidspagefirstclass .bigtext1 {
+        font-size: 70px;
+    }
+    .kidspage .kidspagesecondclass .bigtext2 {
+        font-size: 70px;
+    }
+    .kidspage .kidspagethirdclass .bigtext3 {
+        font-size: 70px;
     }
 }
 
@@ -1672,6 +1732,18 @@
     .kidspagetext h2 {
         font-size: 40px;
     }
+    .kidspage .kidspagefirstclass {
+        right: 35%;
+    }
+    .kidspage .kidspagefirstclass .bigtext1 {
+        font-size: 80px;
+    }
+    .kidspage .kidspagesecondclass .bigtext2 {
+        font-size: 80px;
+    }
+    .kidspage .kidspagethirdclass .bigtext3 {
+        font-size: 80px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1846,6 +1918,19 @@
     .kidspagetext h2 {
         font-size: 60px;
     }
+    .kidspage .kidspagefirstclass {
+        right: 35%;
+    }
+    .kidspage .kidspagefirstclass .bigtext1 {
+        font-size: 90px;
+    }
+    .kidspage .kidspagesecondclass .bigtext2 {
+        font-size: 90px;
+    }
+    .kidspage .kidspagethirdclass .bigtext3 {
+        font-size: 90px;
+    }
+    
 
 }
 
@@ -1976,5 +2061,17 @@
         right: 110px;
         width: 40%;
         height: 100%;
+    }
+    .kidspage .kidspagefirstclass {
+        right: 40%;
+    }
+    .kidspage .kidspagefirstclass .bigtext1 {
+        font-size: 90px;
+    }
+    .kidspage .kidspagesecondclass .bigtext2 {
+        font-size: 90px;
+    }
+    .kidspage .kidspagethirdclass .bigtext3 {
+        font-size: 90px;
     }
 }

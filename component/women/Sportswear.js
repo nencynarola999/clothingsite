@@ -1,8 +1,23 @@
+import { getsportswearApi } from "@/store/Action/PostAction"
 import Link from "next/link"
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { Nav, Tab } from "react-bootstrap"
+import { useDispatch, useSelector } from "react-redux"
 
 const Sportswear = ({ dynamicHeading }) => {
+    let state = useSelector(state => state?.product.sportswear);
+    console.log(state)
+    let dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(getsportswearApi())
+    }, [])
+
+    let extrasec = state?.filter(x => x?.category == "extrasec")
+    let topstees = state?.filter(x => x?.category == "topstees")
+    let leggings = state?.filter(x => x?.category == "leggings")
+    let joggersandtracks = state?.filter(x => x?.category == "joggersandtracks")
+    let sweatshirtsandjackets = state?.filter(x => x?.category == "sweatshirtsandjackets")
+
     const [Heading, setHeading] = useState("");
 
     const [isTopTeesChecked, setIsTopTeesChecked] = useState(false);
@@ -15,7 +30,7 @@ const Sportswear = ({ dynamicHeading }) => {
         setIsLeggingsChecked(false);
         setIsJoggersTracksChecked(false);
         setIsSweatshirtsJacketsChecked(false);
-        setHeading(isTopTeesChecked ? "" : "Kurtas & Kurti");
+        setHeading(isTopTeesChecked ? "" : "Tops & Tees");
     };
 
     const handleLeggingsCheckboxChange = () => {
@@ -23,462 +38,22 @@ const Sportswear = ({ dynamicHeading }) => {
         setIsTopTeesChecked(false);
         setIsJoggersTracksChecked(false);
         setIsSweatshirtsJacketsChecked(false);
-        setHeading(isLeggingsChecked ? "" : "Kurta Sets");
+        setHeading(isLeggingsChecked ? "" : "Leggings");
     };
     const handleJoggersTracksCheckboxChange = () => {
         setIsJoggersTracksChecked(!isJoggersTracksChecked);
         setIsTopTeesChecked(false);
         setIsLeggingsChecked(false);
         setIsSweatshirtsJacketsChecked(false);
-        setHeading(isJoggersTracksChecked ? "" : "Ethnic Wear");
+        setHeading(isJoggersTracksChecked ? "" : "Joggers & Tracks");
     };
     const handleSweatshirtsJacketsCheckboxChange = () => {
         setIsSweatshirtsJacketsChecked(!isSweatshirtsJacketsChecked);
         setIsTopTeesChecked(false);
         setIsLeggingsChecked(false);
         setIsJoggersTracksChecked(false);
-        setHeading(isSweatshirtsJacketsChecked ? "" : "Tops & Tunic");
+        setHeading(isSweatshirtsJacketsChecked ? "" : "Sweatshirts & Jackets");
     };
-    let extrasec = [
-        {
-            image: "/Women/womenslug/i1.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec",
-        },
-        {
-            image: "/Women/womenslug/i2.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i3.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i4.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i5.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i6.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i1.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i3.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i2.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i5.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i6.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-        {
-            image: "/Women/womenslug/i4.avif",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "extrasec"
-        },
-
-    ]
-    let topstees = [
-        {
-            image: "/Women/womenpage/S1.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstees"
-        },
-        {
-            image: "/Women/womenpage/S2.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstees"
-        },
-        {
-            image: "/Women/womenpage/S3.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "topstees"
-        },
-        {
-            image: "/Women/womenpage/S4.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstees"
-        },
-        {
-            image: "/Women/womenpage/S5.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstees"
-        },
-        {
-            image: "/Women/womenpage/S6.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstees"
-        },
-        {
-            image: "/Women/womenpage/S1.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstees"
-        },
-        {
-            image: "/Women/womenpage/S2.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstees"
-        },
-        {
-            image: "/Women/womenpage/S3.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "topstees"
-        },
-        {
-            image: "/Women/womenpage/S4.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstees"
-        },
-        {
-            image: "/Women/womenpage/S5.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstees"
-        },
-        {
-            image: "/Women/womenpage/S6.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "topstees"
-        },
-    ]
-    let leggings = [
-        {
-            image: "/Women/womenpage/S7.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/S8.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/S9.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/S10.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/S11.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/S12.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/S7.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/S8.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/S9.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/S10.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/S11.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-        {
-            image: "/Women/womenpage/S12.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "leggings"
-        },
-    ]
-    let joggersandtracks = [
-        {
-            image: "/Women/womenpage/S13.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "joggersandtracks"
-        },
-        {
-            image: "/Women/womenpage/S14.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "joggersandtracks"
-        },
-        {
-            image: "/Women/womenpage/S15.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "joggersandtracks"
-        },
-        {
-            image: "/Women/womenpage/S16.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "joggersandtracks"
-        },
-        {
-            image: "/Women/womenpage/S17.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "joggersandtracks"
-        },
-        {
-            image: "/Women/womenpage/S18.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "joggersandtracks"
-        },
-        {
-            image: "/Women/womenpage/S13.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "joggersandtracks"
-        },
-        {
-            image: "/Women/womenpage/S14.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "joggersandtracks"
-        },
-        {
-            image: "/Women/womenpage/S15.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "joggersandtracks"
-        },
-        {
-            image: "/Women/womenpage/S16.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "joggersandtracks"
-        },
-        {
-            image: "/Women/womenpage/S17.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "joggersandtracks"
-        },
-        {
-            image: "/Women/womenpage/S18.webp",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "joggersandtracks"
-        },
-    ]
-    let sweatshirtsandjackets = [
-        {
-            image: "/Women/womenpage/S19.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "sweatshirtsandjackets"
-        },
-        {
-            image: "/Women/womenpage/S20.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "sweatshirtsandjackets"
-        },
-        {
-            image: "/Women/womenpage/S21.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "sweatshirtsandjackets"
-        },
-        {
-            image: "/Women/womenpage/S22.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "sweatshirtsandjackets"
-        },
-        {
-            image: "/Women/womenpage/S23.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "sweatshirtsandjackets"
-        },
-        {
-            image: "/Women/womenpage/S24.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "sweatshirtsandjackets"
-        },
-        {
-            image: "/Women/womenpage/S19.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "sweatshirtsandjackets"
-        },
-        {
-            image: "/Women/womenpage/S20.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "sweatshirtsandjackets"
-        },
-        {
-            image: "/Women/womenpage/S21.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            cutprice: "$540",
-            category: "sweatshirtsandjackets"
-        },
-        {
-            image: "/Women/womenpage/S22.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "sweatshirtsandjackets"
-        },
-        {
-            image: "/Women/womenpage/S23.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "sweatshirtsandjackets"
-        },
-        {
-            image: "/Women/womenpage/S24.jpg",
-            button: "DETAIL",
-            name: "PRODUCT NAME",
-            price: "$340",
-            category: "sweatshirtsandjackets"
-        },
-    ]
 
     const filteredProducts = isTopTeesChecked
         ? topstees.filter((product) => product.category === "topstees")

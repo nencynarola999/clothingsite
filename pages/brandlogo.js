@@ -82,7 +82,7 @@ const Brandlogo = () => {
             <div className="container-fluid mt-5 g-0">
                 <div className="container g-0  p-0" >
                     <Slider {...settings} className="row slidermaindiv g-0" style={{ overflow: "hidden" }}>
-                    
+
                         {
                             logo?.map((x, i) => {
                                 return (
