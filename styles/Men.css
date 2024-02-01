@@ -55,6 +55,7 @@
     height: 2px;
     background-color: var(--data-colorlogo);
     transform: translate(-50%, -50%);
+    /* color: rgb(165, 42, 42); */
 }
 
 .homemensec2imagehoverset div h2::before {

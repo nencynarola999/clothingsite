@@ -331,7 +331,6 @@
     opacity: 1;
 }
 
-
 .carousel-indicatorswomenpage [data-bs-target] {
     background-clip: padding-box;
     background-color: #ffffffa7;
@@ -555,6 +554,11 @@
 
 .womenslug .womenslugfirstsec div p {
     color: var(--textlight-color);
+}
+
+.womenslugbutton {
+    color: var(--data-colorlogo);
+    font-weight: 700;
 }
 
 .forminput:focus {
@@ -784,44 +788,44 @@
 
 /* slider */
 /* .footwearslidermain {
-    position: relative;
+position: relative;
 
 }
 
 .footwearslider {
-    border: 1px solid red;
+border: 1px solid red;
 
 }
 
 .footwearslider li {
-    list-style: none;
-    display: none;
+list-style: none;
+display: none;
 }
 
 .slick-prev {
-    font-size: 0px;
-    position: absolute;
-    top: 50%;
-    display: block;
-    cursor: pointer;
-    left: 13%;
-    background-color: transparent;
-    color:red;
+font-size: 0px;
+position: absolute;
+top: 50%;
+display: block;
+cursor: pointer;
+left: 13%;
+background-color: transparent;
+color:red;
 
 }
 .slick-prev:before {
-    content: "\2039";
+content: "\2039";
 }
 .slick-prev:before {
-    font-family: slick;
-    font-size: 30px;
-    line-height: 1;
-    opacity: .75;
-    padding: 0px 10px;
-    color: #fff;
-    background-color: black;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+font-family: slick;
+font-size: 30px;
+line-height: 1;
+opacity: .75;
+padding: 0px 10px;
+color: #fff;
+background-color: black;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
 } */
 
 /* WOMEN-WATCHES */
@@ -909,7 +913,6 @@
     display: flex;
     /* align-items: center; */
     flex-direction: column;
-
 }
 
 .womenblacktext .womenblackh2 {
@@ -924,7 +927,6 @@
     border: 1px solid var(--data-colorlogo);
     color: var(--data-colorlogo);
     background-color: transparent;
-
 }
 
 /* WOMEN-JEWELLERY */
@@ -936,8 +938,8 @@
 .jewelbgh2 {
     position: absolute;
     /* top: 20%;
-    left: 10%;
-    font-size: 60px; */
+left: 10%;
+font-size: 60px; */
     color: var(--textdark-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     letter-spacing: 5px;
@@ -946,7 +948,7 @@
 .jewelbgbtn {
     position: absolute;
     /* top: 50%;
-    left: 10%; */
+left: 10%; */
     background-color: var(--white-color);
     color: var(--textdark-color);
     /* padding: 10px 20px; */
@@ -976,7 +978,6 @@
     color: var(--data-colorlogo);
     font-weight: 700;
     transition: all 0.5s ease-in-out;
-
 }
 
 .jewelsiximagediv h3 {
@@ -990,7 +991,6 @@
 }
 
 .luxuryjewelh2 {
-
     color: var(--data-colorlogo);
     font-size: 40px;
 }
@@ -1006,7 +1006,7 @@
     right: 10%;
     /* padding: 5px 10px; */
     /* background-color: var(--black-color);
-    color: var(--white-color); */
+color: var(--white-color); */
 }
 
 .luxuryjewelp1 {
@@ -1096,7 +1096,6 @@
 
 .shapeimgdiv {
     cursor: pointer;
-
 }
 
 .shapeimghover {
@@ -1137,7 +1136,6 @@
     outline-offset: -30px;
 }
 
-
 .onlyimgsec:hover .onlyimgtext {
     background-color: rgba(0, 0, 0, 0.350);
     outline: 1px solid rgba(var(--rgbwhite-color), 0.45);
@@ -1166,7 +1164,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .blackbgline {
@@ -1207,7 +1204,7 @@
 
 .blackbgimgpara {
     /* width: 40%;
-    font-size: 22px; */
+font-size: 22px; */
     text-align: center;
     color: rgba(var(--rgbwhite-color), 0.75);
 }
@@ -1248,7 +1245,6 @@
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.10), 0 15px 12px rgba(0, 0, 0, 0.02);
     position: relative;
     width: 600px;
-
 }
 
 #shadow-effect p {
@@ -1297,7 +1293,6 @@
     opacity: 0.2;
     transform: scale3d(0.8, 0.8, 1);
     transition: all 0.3s ease-in-out;
-
 }
 
 .shadow-effect {
@@ -1352,10 +1347,10 @@
 .owl-carousel .owl-nav .owl-next {
     position: absolute;
     /* top: 40%;
-    right: 26%; */
+right: 26%; */
     background: var(--data-colorlogo) !important;
     /* height: 50px;
-    width: 50px; */
+width: 50px; */
     border-radius: 50% !important;
     display: flex !important;
     justify-content: center !important;
@@ -1376,10 +1371,10 @@
 .owl-carousel .owl-nav .owl-prev {
     position: absolute;
     /* top: 40%;
-    left: 26%; */
+left: 26%; */
     background: var(--data-colorlogo) !important;
     /* height: 50px;
-    width: 50px; */
+width: 50px; */
     border-radius: 50% !important;
     display: flex !important;
     justify-content: center !important;
@@ -1410,8 +1405,8 @@
 .fragranceone {
     border: 1px solid rgba(255, 255, 255, 0.539);
     /* padding: 10px;
-    height: 75%;
-    width: 80%; */
+height: 75%;
+width: 80%; */
     margin: 0 auto;
     /* border-radius: 0px 100px 0px 100px; */
 }
@@ -1425,8 +1420,8 @@
 .fragrancetwo {
     border: 1px solid rgba(255, 255, 255, 0.539);
     /* padding: 10px;
-    height: 100%;
-    width: 80%; */
+height: 100%;
+width: 80%; */
     margin: 0 auto;
     /* border-radius: 150px; */
 }
@@ -1440,8 +1435,8 @@
 .fragrancethree {
     border: 1px solid rgba(255, 255, 255, 0.539);
     /* padding: 10px;
-    height: 75%;
-    width: 80%; */
+height: 75%;
+width: 80%; */
     margin: 0 auto;
     /* border-radius: 100px 0px 100px 0px; */
 }
@@ -1513,7 +1508,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .wfragrancebgdiv {
@@ -1522,7 +1516,6 @@
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-
 }
 
 .wfragranceproduct {
@@ -1530,7 +1523,6 @@
     margin: 0 auto;
     border-radius: 190px;
     background-color: #2F2F30;
-
 }
 
 .wfragranceproductlink {
@@ -1575,6 +1567,7 @@
 .perfumeh6 {
     color: var(--data-colorlogo);
 }
+
 .womentestimonialsmaindiv {
     background-image: url("./../public/Women/womenslug/Fragrances/testimonialsimg.jpg");
     background-repeat: no-repeat;
@@ -1583,7 +1576,6 @@
     /* height: 500px; */
     position: relative;
     padding: 300px 0px;
-
 }
 
 .womentestimonialsmaindivbg {
@@ -1596,41 +1588,145 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
-}
-.testi_item{
-    padding: 50px;
-}
-.testi_icon{
-    color: var(--data-colorlogo);
-}
-.testi_p{
-    color: rgba(var(--rgbwhite-color), 0.75);
-}
-.testi_quote{
-    color: var(--data-colorlogo);
-font-size: 50px;
 }
 
+.testi_item {
+    padding: 50px;
+}
+
+.testi_icon {
+    color: var(--data-colorlogo);
+}
+
+.testi_p {
+    color: rgba(var(--rgbwhite-color), 0.75);
+}
+
+.testi_quote {
+    color: var(--data-colorlogo);
+    font-size: 50px;
+}
 
 .testimonial_sliderdiv {
     border-radius: 0px 100px 0px 100px;
     background-color: #2f2f30;
 }
-.testiroundimg{
+
+.testiroundimg {
     height: 70px;
     width: 70px;
     border-radius: 50%;
 }
-.testimonial_sliderdiv .carousel-control-prev:focus{
+
+.testimonial_sliderdiv .carousel-control-prev:focus {
     opacity: 0;
 }
-.testimonial_sliderdiv .carousel-control-next:focus{
+
+.testimonial_sliderdiv .carousel-control-next:focus {
     opacity: 0;
 }
-.blog_h6{
+
+.blog_h6 {
     color: var(--data-colorlogo);
 }
+
+
+.item {
+    height: 400px;
+    background: #000;
+    color: #fff;
+
+}
+
+.slick-dots ul {
+    padding: 0;
+}
+
+.slick-dots li {
+    width: auto;
+    list-style-type: none;
+}
+
+.page_linkk {
+    color: var(--data-colorlogo);
+}
+
+.page_linkk:hover {
+    background-color: #f8f9fa;
+    color: var(--data-colorlogo);
+    border: 1px solid #dee2e6;
+}
+
+.active>.page_linkk,
+.page_linkk.active {
+    z-index: 3;
+    color: var(--white-color);
+    background-color: var(--data-colorlogo) !important;
+    border-color: var(--data-colorlogo) !important;
+}
+.page-link:focus {
+    box-shadow: none;
+}
+
+.spandot {
+    color: var(--data-colorlogo);
+}
+
+.allimages {
+    position: relative;
+}
+
+.allimages img {
+    width: 100%;
+    height: 100%;
+}
+
+.imagehover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.allimages:hover .imagehover {
+    opacity: 1;
+}
+
+/* width */
+.scrollbardiv::-webkit-scrollbar {
+    width: 3px;
+}
+
+/* Track */
+.scrollbardiv::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(195, 194, 194);
+}
+
+/* Handle */
+.scrollbardiv::-webkit-scrollbar-thumb {
+    background: var(--data-colorlogo);
+}
+
+.alldataheading {
+    border: 1px solid #d4d5d9;
+    box-shadow: 0 2px 4px #ffffff80;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.alldataheading h6{
+    color: #545454;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 6px 8px;
+
+}
+
 /* // -------------------------------------------------------------------- RESPONSIVE */
 
 @media only screen and (max-width: 345.98px) {
@@ -1987,7 +2083,6 @@ font-size: 50px;
 }
 
 @media only screen and (max-width: 575.98px) {
-
     .carousel-control-next1 a {
         font-size: 25px;
         height: 35px;
@@ -2390,15 +2485,16 @@ font-size: 50px;
         border-radius: 0px 0px 00px 0px;
         border-left: 1;
     }
-    .testi_item{
-        padding: 50px 27px ;
+
+    .testi_item {
+        padding: 50px 27px;
     }
 }
 
 @media only screen and (min-width: 575.98px) {
 
     /* .carousel-control-next1 {
-    } */
+} */
     .carousel-control-next1 a {
         font-size: 25px;
         height: 35px;
@@ -2488,9 +2584,9 @@ font-size: 50px;
     }
 
     /* .Homewomen2maindiv {
-    } */
+} */
     /* .Homewomen2maindiv a {
-    } */
+} */
     .Homewomen2maindiv a div {
         height: 71%;
     }
@@ -2820,16 +2916,13 @@ font-size: 50px;
         border-radius: 0px 0px 130px 0px;
         border-left: 0;
     }
-    .testi_item{
-        padding: 50px ;
-    }
 
+    .testi_item {
+        padding: 50px;
+    }
 }
 
-
-
 @media only screen and (min-width: 767.98px) {
-
     .carousel-control-next1 a {
         font-size: 30px;
         height: 50px;
@@ -2866,7 +2959,6 @@ font-size: 50px;
     .Homewomen1submaindiv .hwomentextdiv2 {
         top: 30%;
         left: 5%;
-
     }
 
     .Homewomen1submaindiv .hwomentextdiv2 h2 {
@@ -4072,5 +4164,4 @@ font-size: 50px;
     .fragrancethree img {
         border-radius: 100px 0px 100px 0px;
     }
-
 }
